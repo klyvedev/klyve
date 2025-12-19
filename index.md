@@ -12,7 +12,7 @@ The Desktop Software Development Factory
 # Your Expertise. Scaled.
 {: .text-center .fs-9 }
 
-Execute the entire lifecycle—from requirements to deployment—on your local machine.
+Execute the entire lifecycle - from requirements to deployment - on your local machine.
 No cloud dependencies. No lost IP.
 {: .text-center .fs-6 .fw-300 }
 
@@ -82,4 +82,5 @@ Klyve is an evolving system built for solo developers.
 
 
 [**Contact Developer**](mailto:developer@klyve.online){: .btn .btn-outline .fs-4 .ml-0 }
+
 
