@@ -61,5 +61,6 @@ Klyve is the result of a collaborative partnership between the AI and myself. It
 For beta feedback, bug reports, new feature requests and general queries:
 developer@klyve.online
 
-**Mario Lewis**
+**Mario Lewis**<br>
+
 *(Retired) veteran of the software industry*
