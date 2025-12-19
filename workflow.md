@@ -7,7 +7,7 @@ nav_order: 3
 # The Workflow
 {: .fs-9 }
 
-A chronological look at the "Factory Floor"—from raw idea to built release.
+A chronological look at the "Factory Floor" - from raw idea to built release.
 {: .fs-6 .fw-300 }
 
 ---
@@ -63,5 +63,6 @@ Upon success, you receive:
 1.  **The Code:** Committed, merged, and ready for deployment.
 2.  **The Reports:** A full Backlog Traceability Report and Test Execution Report.
 3.  **The Documentation:** Your Application and Technical Specifications are automatically updated to reflect the changes made during the sprint, ensuring your docs never rot.
+
 
 You are now ready to deploy—or select the next set of features and start the cycle again.
