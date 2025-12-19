@@ -62,5 +62,5 @@ For beta feedback, bug reports, new feature requests and general queries:
 developer@klyve.online
 
 **Mario Lewis**<br>
-
 *(Retired) veteran of the software industry*
+
