@@ -58,9 +58,12 @@ I realized early on that raw LLMs struggle to get far because of a few inherent 
 Klyve is the result of a collaborative partnership between the AI and myself. It is practical proof that when human experience is paired with AI, even a single developer can deliver software at an appreciable scale.
 
 **Contact**
+
 For beta feedback, bug reports, new feature requests and general queries:
-developer@klyve.online
+
+[developer@klyve.online](mailto:developer@klyve.online)
 
 **Mario Lewis**<br>
 *(Retired) veteran of the software industry*
+
 
