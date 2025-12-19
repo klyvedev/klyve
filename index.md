@@ -3,6 +3,8 @@ layout: home
 title: Home
 nav_order: 1
 ---
+# Klyve
+{: .text-center .fs-10 .mb-0 }
 
 {: .text-center .fs-5 .text-grey-dk-000 }
 The Desktop Software Development Factory
@@ -80,3 +82,4 @@ Klyve is an evolving system built for solo developers.
 
 
 [**Contact Developer**](mailto:developer@klyve.online){: .btn .btn-outline .fs-4 .ml-0 }
+
