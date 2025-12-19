@@ -5,7 +5,7 @@ color_scheme: dark
 # UPDATED CONFIGURATION
 url: "https://klyve.online"
 baseurl: ""
-
+logo: "/assets/images/favicon.ico"
 favicon_ico: "/assets/images/favicon.ico"
 
 # Navigation Logic
@@ -21,4 +21,5 @@ callouts:
     color: red
   note:
     title: Note
+
     color: purple
