@@ -17,7 +17,6 @@ Terms of Service, Privacy Policy, and Open Source Attributions.
 
 This agreement governs the use of the Klyve Desktop Software Factory. It defines the terms under which the software is licensed (not sold) to you, including the restrictions on reverse engineering and the limitations of liability regarding AI-generated code.
 
-```text
 END USER LICENSE AGREEMENT (EULA) FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
 
 IMPORTANT – READ CAREFULLY: This End User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User") and Mario Joseph Lewis ("Developer") for the Klyve software application, including its source code, user interface, structure, and associated documentation (collectively, the "Software").
@@ -74,7 +73,7 @@ BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF 
 10.3 Entire Agreement: This Agreement constitutes the entire agreement between you and the Developer with respect to the Software and supersedes all prior or contemporaneous understandings regarding such subject matter.  
 
 (End of Agreement)
-```
+
 ---
 
 ## 2. Privacy Policy
@@ -82,7 +81,6 @@ BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF 
 
 Klyve is designed with a "Local-First" privacy architecture. This policy details exactly what data remains on your machine (Source Code, Databases, Project Data, Credentials) and what data is transmitted to third-party LLM providers (API Payloads) during operation.
 
-```text
 PRIVACY POLICY FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
 
 1. MY "LOCAL-FIRST" PROMISE I, Mario J. Lewis ("Developer"), believe your code and project data belong to you. Klyve ("the Software") is designed as a Local-First application. This means:
@@ -120,7 +118,7 @@ API Keys: Your API keys are stored locally in an encrypted database on your mach
 5. CHANGES TO THIS POLICY: I may update this Privacy Policy from time to time. If I make material changes (e.g., if a future version introduces telemetry), I will issue a notification on the Software's website.
 
 (End of Privacy Policy)
-```
+
 ---
 
 ## 3. Third-Party Notices
@@ -128,7 +126,6 @@ Klyve stands on the shoulders of giants. We utilize various open-source librarie
 
 The following notices provide the full license texts and copyright statements for all third-party software bundled with or used by this application, in compliance with their respective licenses (LGPL, MIT, Apache 2.0, etc.).
 
-```text
 THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 Generated: 08-Dec-2025
 =========================================================================
@@ -8903,7 +8900,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-```
