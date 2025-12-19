@@ -66,7 +66,7 @@ Most tools focus on how fast you can code. Klyve focuses on how much you can del
 ---
 
 ## 6. The Ability to "Clone Yourself"
-**The Pain:** You are a Senior Developer. You can write high-quality code, decent tests, and documentation—but you can't do all three at the same time. You usually sacrifice docs and tests to meet the deadline.
+**The Pain:** You are a Senior Developer. You can write high-quality code, decent tests, and documentation - but you can't do all three at the same time. You usually sacrifice docs and tests to meet the deadline.
 
 **The Klyve Solution:**
 * **The Feature:** **Serialized Execution Pipeline.**
