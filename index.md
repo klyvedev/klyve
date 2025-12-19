@@ -22,7 +22,7 @@ No cloud dependencies. No lost IP.
   </a>
 </div>
 
-Windows/Linux Executable • Free to Use • BYO LLM Key
+Windows & Linux Versions • Free to Use • BYO LLM Key
 {: .fs-2 .text-grey-dk-000 .mt-2 .text-center }
 
 ---
