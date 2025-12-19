@@ -14,7 +14,11 @@ Execute the entire lifecycle—from requirements to deployment—on your local m
 No cloud dependencies. No lost IP.
 {: .text-center .fs-6 .fw-300 }
 
-[Download the Factory (Free)](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 .py-3 .px-5 }
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 py-3 px-5">
+    Download the Factory (Free & Local)
+  </a>
+</div>
 
 Windows/Linux Executable • Free to Use • BYO LLM Key
 {: .fs-2 .text-grey-dk-000 .mt-2 .text-center }
@@ -73,5 +77,6 @@ Move up from generating boilerplate code with coding agents and start executing 
 Klyve is an evolving system built for solo developers.
 * **Bug Reports:** Found an edge case?
 * **Feedback & Inquiries:** Share your experience or reach out for discussion.
+
 
 [**Contact Developer**](mailto:developer@klyve.online){: .btn .btn-outline .fs-4 .ml-0 }
