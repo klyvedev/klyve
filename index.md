@@ -1,86 +1,72 @@
 ---
-layout: home
+layout: default
 title: Home
 nav_order: 1
+description: "Klyve: The Automated Software Factory for the Solo Senior Developer."
+permalink: /
 ---
-# Klyve
-{: .text-center .fs-10 .mb-0 }
 
-{: .text-center .fs-5 .text-grey-dk-000 }
-The Desktop Software Development Factory
+# The Automated Software Factory
+{: .fs-9 }
 
-# Your Expertise. Scaled.
-{: .text-center .fs-9 }
+Scale yourself. Build, test, and maintain team-scale applications as a **Solo Senior Developer**.
+{: .fs-6 .fw-300 }
 
-Execute the entire lifecycle - from requirements to deployment - on your local machine.
-No cloud dependencies. No lost IP.
-{: .text-center .fs-6 .fw-300 }
-
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 py-3 px-5">
-    Download the Factory (Free & Local)
-  </a>
-</div>
-
-Windows & Linux Versions • Free to Use • BYO LLM Key
-{: .fs-2 .text-grey-dk-000 .mt-2 .text-center }
+[Download Klyve (free)](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Capabilities](capabilities.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## The "Assistant" Trap
-**You don't need help coding. You need help executing entire projects.**
+## Stop Typing. Start Orchestrating.
+The current generation of AI develoment tools are **Tactical Assistants**. They live in your IDE, autocomplete your lines, and help you write functions faster. But you still have to wire them together, write the tests, and maintain the documentation.
 
-The current generation of AI coding assistants are limited: they are tactical solutions, not strategic ones. They help you autocomplete a function or refactor a block, but they have no concept of your **Project Architecture**, your **Sprint Goals**, or your need for an **End-to-End Traceability Matrix**.
+Klyve is different. It is an **Orchestration Engine**. You first provide an architectural guideline; Klyve handles the implementation details across the entire lifecycle.
 
-The result? You code faster, but you spend just as much time debugging integration errors, writing boilerplate tests, and updating stale documentation. You are unabled to get bigger things done.
-
-## Enter the Factory Paradigm
-Klyve is not a plugin. It is a standalone **Software Development Factory** where you are the Architect, and AI is the workforce.
-
-Instead of writing code line-by-line, you execute the entire development lifecycle. You approve the specifications, you define the stack, you decide the sprint inclusions and you review the logic plans. Klyve handles the implementation details—managing the backlog, writing the code, executing the regression suite, and committing the results.
-
-### Core Capabilities
-
-### 1. Plan Before You Build
-Klyve doesn't guess. It reads your specs, breaks down the implementation, proposes a sprint plan, and waits for your sign-off. If the plan is flawed, you correct it before a single line of code is written.
-
-### 2. State-Aware Context
-Unlike chat bots that forget previous details, Klyve remembers what it has done. It knows what it has built earlier, what tests passed, and which files are needed for the current change.
-
-### 3. The "Unhappy Path"
-Real development is messy. Klyve includes automated debugging pipelines to handle environment failures, missing dependencies, and regression errors — or it can hand them off to you for a manual fix.
+| Feature | Tactical Assistants (Code Generators) | Klyve (Software Factory) |
+|:---|:---|:---|
+| **Role** | The Junior Pair Programmer | The Engineering Team |
+| **Input** | Cursor position & open files | App & Tech Specifications & Architecture |
+| **Scope** | Single functions or snippets | Entire Project Lifecycle (Spec to Test) |
+| **Memory** | Context window limited | Persistent Project State |
+| **Testing** | You write the tests | Klyve writes & runs the tests |
 
 ---
 
-## Built for the "10x" Solo Professional
-Klyve is designed specifically for Senior Developers, Architects, and Technical Founders who want to build "Team-Scale" applications single-handedly.
+## The "10%" Reality
+Klyve is designed for the experienced engineer who understands that writing code is only 10% of the job. The other 90% - specification, testing, documentation updates, and integration—is what kills your velocity and requires a team.
 
-### 🔒 Your IP Stays Local
-Klyve is a compiled, desktop-native executable. It runs locally on your Windows or Linux machine.
-* **No Cloud State:** Your source code, database, and specs are stored in a local, encrypted SQLite database.
-* **BYOK (Bring Your Own Key):** You connect directly to your preferred LLM provider (e.g., OpenAI, Anthropic, Google, or any other). Klyve acts as the secure conduit; we never see your code.
+### How Klyve changes your workflow:
 
-### 🛠 Control, Not Magic
-It can be difficult to work with black box applications delivered by an AI tool. Klyve generates standard, readable code (Python, Java, JS, SQL, or any other language that your chosen LLM can code in) that you own completely.
-* **Standards Enforced:** The system adheres to a generated *Coding Standard* specific to your project.
-* **Human-in-the-Loop:** Every major decision—from the initial tech stack to the final merge—requires your explicit approval.
+1.  **You Architect, It Builds**
+    You don't tab-complete your way through a project. You provide your high-level requirements and technical specifications (or ask Klyve to do the detailing for you from a summary). Once you approve them, Klyve implements them.
 
----
+2.  **"Glass Box" Transparency**
+    No magic black boxes. Klyve produces standard, readable code that you own. If you stop using Klyve tomorrow, your project artifact remain as a standard repository that any human developer can pick up.
 
-## Start Your First Sprint
-Move up from generating boilerplate code with coding agents and start executing the bigger picture of your vision.
-
-[**Explore Capabilities**](./capabilities.html){: .btn .btn-outline }
-[**See How it Works**](./workflow.html){: .btn .btn-outline }
+3.  **Full Lifecycle Management**
+    Klyve doesn't just write code. It updates your documentation to match the code, generates unit tests, regression tests and UI tests, and runs these as well as your own additional tests to ensure the new features are good.
 
 ---
 
-### 📬 Connect with the Developer
-Klyve is an evolving system built for solo developers.
-* **Bug Reports:** Found an edge case?
-* **Feedback & Inquiries:** Share your experience or reach out for discussion.
+## Privacy & Security
+{: .no_toc }
 
+> **Local-First. Bring Your Own Key.**
+>
+> Klyve runs locally on your machine. We do not host your code. We do not train on your code.
+> * **Your Keys:** You provide your own API keys (e.g., OpenAI, Anthropic, Google).
+> * **Your Code:** Source files never leave your local environment except to travel to the LLM provider for processing.
+> * **Zero Retention:** Klyve does not store your intellectual property on any remote server.
+{: .important }
 
-[**Contact Developer**](mailto:developer@klyve.online){: .btn .btn-outline .fs-4 .ml-0 }
+---
 
+## Get Started
+Klyve is currently in **Public Beta**.
 
+1.  **Download:** Get the latest executable for your OS.
+2.  **Configure:** Add your LLM API Key in the Settings menu.
+3.  **Build:** Create a new project or import an existing one.
+
+[Download Klyve](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .mr-2 }
+
+*Available for Windows and Linux.*

@@ -2,6 +2,7 @@ title: Klyve
 description: The Desktop Software Development Factory.
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
+
 # UPDATED CONFIGURATION
 url: "https://klyve.online"
 baseurl: ""
@@ -10,6 +11,15 @@ favicon_ico: "/assets/images/favicon.ico"
 
 # Navigation Logic
 nav_sort: nav_order
+
+# Enable Search
+search_enabled: true
+
+# Top Right Navigation Links
+# Changed to "Releases" since source is not public
+aux_links:
+  "Releases":
+    - "https://github.com/klyvedev/klyve/releases"
 
 # Footer
 footer_content: "© 2025 Mario J. Lewis. All rights reserved. <a href='mailto:developer@klyve.online' style='text-decoration: underline;'>developer@klyve.online</a>"
@@ -21,5 +31,4 @@ callouts:
     color: red
   note:
     title: Note
-
     color: purple
