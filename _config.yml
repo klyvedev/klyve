@@ -9,7 +9,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/assets/images/social-preview.png"
+      image: "/assets/images/klyve_card_v1.png"
 baseurl: ""
 logo: "/assets/images/favicon.ico"
 favicon_ico: "/assets/images/favicon.ico"
@@ -37,3 +37,4 @@ callouts:
   note:
     title: Note
     color: purple
+
