@@ -12,7 +12,7 @@ permalink: /
 The Automated Software Factory
 {: .fs-6 .fw-300 .text-center }
 
-Scale yourself. Build, test, and maintain team-scale applications as a<br />**Solo Senior Developer**.
+Scale yourself. Build, test, and maintain entire applications as a<br />**Solo Senior Developer.**.
 {: .fs-6 .fw-300 .text-center }
 
 <div class="text-center mt-4">
