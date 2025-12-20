@@ -5,6 +5,11 @@ color_scheme: dark
 
 # UPDATED CONFIGURATION
 url: "https://klyve.online"
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/social-preview.png"
 baseurl: ""
 logo: "/assets/images/favicon.ico"
 favicon_ico: "/assets/images/favicon.ico"

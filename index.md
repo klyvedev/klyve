@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Klyve
 nav_order: 1
 description: "Klyve: The Automated Software Factory for the Solo Senior Developer."
 permalink: /
