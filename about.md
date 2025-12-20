@@ -55,7 +55,7 @@ Klyve is a powerful engine, but it requires a skilled leader.
 > Klyve is the result of that partnership. It is practical proof that when human experience is paired with AI, even a single developer can deliver software at scale.
 >
 > **Mario J. Lewis**
->
+
 > *(Retired) veteran of the software industry*
 
 ---
