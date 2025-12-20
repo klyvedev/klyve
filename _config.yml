@@ -38,3 +38,7 @@ callouts:
     title: Note
     color: purple
 
+# Analytics Configuration
+ga_tracking: G-N0YGHDTNXE
+ga_tracking_anonymize_ip: true
+
