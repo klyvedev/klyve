@@ -14,56 +14,52 @@ Starting a new build or resuming a legacy project.
 ---
 
 ## 1. Creating a New Application
-This workflow is for projects starting from scratch. You provide the intent; Klyve provides the architectural elaboration.
+This workflow is for greenfield projects. You provide the intent; Klyve provides the architectural elaboration.
 
-### Step 1: Initialize the Project
-* **Navigation:** *File > New Project...*
-* **Action:** Select **"Create from a New Specification"**.
-* **Input:** Enter a Project Name and select a root directory for your new workspace.
-* **Jira Integration:**
-    * **Purpose:** Enables optional two-way synchronization of backlog items, allowing Klyve to push/pull tickets from your existing Jira board.
-    * **Configuration:** Navigate to *Projects > Project Settings > Integrations*. Enter your **URL**, **Username**, and **API Token** to authenticate the connection.
-
+### Step 1: Initialize
+* **Navigate:** *File > New Project* and select **"Create from a New Specification"**.
+* **Jira Integration (Optional):**
+    * Go to *Project Settings > Integrations* to enable two-way backlog sync.
+    * Input your **URL**, **Username**, and **Jira API Token** to authenticate.
 
 ### Step 2: The Project Brief
-You do not need a perfect technical document to start. You need a clear intent.
-* **Input Method:** You will be presented with the *Specification Elaboration* screen.
-    * **Text Mode:** Paste a raw text description of your idea (e.g., "A Python-based inventory management system with a React frontend...").  
-    * **File Mode:** Upload existing PDF or Word document(s) containing your requirements. The more you specify the better the results.
-* **System Action:** Klyve analyzes the brief to identify core features, missing requirements, and potential technical risks.
+You do not need a perfect technical document to start.
+* **Text Mode:** Paste a raw description (e.g., *"A Java-based retail inventory system..."*).
+* **File Mode:** Upload existing PDF or Word requirements documents. The better the spec the better the final deliverables.
+* **Analysis:** Klyve scans the input to identify core features and missing requirements.
 
-### Step 3: The UX and Project Lifecycle Clarification Decisions
-Before generating formal application specifications, Klyve asks if you want a full UX spec generated, unless it is very clear your application doesn't need one. For very small applications it may even suggest that you proceed directly to development without going through the specification generation or elaboration phase.
-* **The Assessment:** The system will provide you with its assessment and let you decide what you want to do. If what you want is a backend component with very clear specs it may suggest that you skip the elaboration and tech spec phases and go straight to development.
+### Step 3: Lifecycle Assessment
+Before generating specs, Klyve assesses the project type:
+* **UX Decision:** It asks if a **UX Specification** is needed. For backend-only component development, it will suggest skipping this.
+* **Fast-Track:** For very small or clearly defined scripts, it may recommend skipping the elaboration phase entirely and moving straight to development.
 
 ### Step 4: Specification Ratification
-Klyve generates two or three foundational documents based on your input. You must review and approve them before any code is written.
-* **UX/UI Specification:** Defines Screens and UI styling, User Personas and key User Journeys.
-* **Application Specification:** Defines *what* we are building (User Personas, User Journeys, Functional Requirements).
-* **Technical Specification:** Defines *how* we are building it (Tech Stack, Database Schema, API Architecture, design patterns).
-* **Action:** Review the drafts on the screen. Use the "Refine" button to prescribe or request changes. Click **"Approve"** to lock the scope and proceed towards the Project Backlog, while creating coding standards, dev and test environments, build scripts and dockerfiles along the way.
+Klyve generates the foundational documents for your review.
+* **UX/UI Spec:** User personas, journeys, and screen definitions.
+* **Application Spec:** Functional requirements and scope.
+* **Technical Spec:** Stack selection, database schema, and API architecture.
+* **Action:** Review the drafts. Use **"Refine"** to request changes, then click **"Approve"** to lock the scope and generate the project backlog.
 
 ---
 
 ## 2. Onboarding an Existing Codebase
-This workflow is for legacy application maintenance projects. Klyve ingests your local source code to build a context map, allowing you to specify changes and execute sprints against an application you didn't write.
+This workflow is for legacy maintenance. Klyve ingests your local source code to build a context map.
 
-### Step 1: Select the Target
-* **Navigation:** *File > New Project...*
-* **Action:** Select **"Work with an Existing Codebase"**.
-* **Input:** Browse to the root folder of the existing application.
+### Step 1: Select Target
+* **Navigate:** *File > New Project* and select **"Work with an Existing Codebase"**.
+* **Input:** Browse to the root folder of the application in which the user has made the code base files available.
 
-### Step 2: The Pre-Flight Scan
-Klyve performs a non-destructive read-only scan of the directory.
-* **Safety Check:** The system verifies that the directory contains valid source code and checks for existing Git repositories.
-* **Indexing:** Klyve builds a detailed understanding of the codebase. This allows the AI to understand work with it without needing to re-read every file for every task.
+### Step 2: Pre-Flight Scan
+Klyve performs a non-destructive read-only scan.
+* **Safety:** Verifies valid source code and checks for Git repositories.
+* **Indexing:** Builds a "Project Memory," allowing the AI to understand the architecture without re-reading every file for every task.
 
-### Step 3: Reverse-Engineering Specs
-To manage the project effectively, Klyve needs a starting baseline.
-* **System Action:** Klyve prepared a **Baseline Application Specification** and **Technical Specification**, and also a **UX/UI Specification** and **DB Schema Specification** when applicable.
-* **Outcome:** You receive a set of "Reverse-Engineered" documents that describe your current system. These serve as the source of truth for future changes.
+### Step 3: Reverse-Engineering
+Klyve establishes a baseline by generating "Reverse-Engineered" specifications:
+* **Baseline Docs:** Creates Application and Technical Specifications that reflect the *current* state of the system.
+* **Outcome:** These documents become the source of truth for future changes.
 
-### Step 4: The Maintenance Dashboard
-Once indexing is complete, you are taken to the **Project Dashboard**.
-* **Status:** The system displays the languages detected, the number of files indexed, and the health of the codebase.  
-* **Next Step:** Klyve will then help you decide the coding standards it must use. You can then navigate to *Project > Project Backlog* to begin adding Bug Reports or Change Requests against your existing code.
+### Step 4: Maintenance Dashboard
+Once indexed, you are taken to the Dashboard.
+* **Status:** Displays detected languages and codebase health.
+* **Next Step:** Define your coding standards, then navigate to the **Project Backlog** to begin adding bug reports or features.

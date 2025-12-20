@@ -14,54 +14,59 @@ On-demand validation tools for continuous stability.
 ---
 
 ## 1. The Testing Philosophy
-Klyve treats testing as a continuous activity, not just a sprint phase. While the "Factory" enforces mandatory quality gates at the end of a build, you often need to run ad-hoc checks during development—for example, to verify a manual fix or check environmental stability.
+While Klyve enforces mandatory quality gates at the end of a sprint, you often need to run ad-hoc checks during development. Configure all on-demand test commands via the **Project > Testing** menu. Klyve does the rest of the work.
 
-Configure all on-demand test commands via the **Project > Testing** menu.
+<div align="center">
+
+| Testing Phase | Script Source (Who writes the code?) | Execution Source (Who presses the button?) | Test Runner Command Source (Where is the command defined?) |
+| :--- | :--- | :--- | :--- |
+| **Unit Testing** | Klyve | Klyve | Project Settings <br> Field: "Test Execution Command" |
+| **Backend Regression** | Klyve | Klyve | Project Settings <br> Field: "Test Execution Command" (Re-uses Unit Test setting) |
+| **Backend Integration** | Klyve | Klyve | Klyve <br> (Internally generated for the temporary script) |
+| **Automated UI** | Klyve | Klyve | Project Settings <br> Field: "Automated UI Test Command" |
+| **Manual UI** | Klyve (Writes Test Plan doc) | User | N/A <br> (Human execution) |
+
+</div>
 
 ---
 
 ## 2. Backend Validation
-These tests validate your application's logic, API, and database layers without spinning up the UI.
+Validates logic, API, and database layers without spinning up the UI.
 
 ### Initiate Integration Testing
 Useful for a quick "Health Check" of the entire backend.
-* **Navigation:** *Project > Testing > Initiate Integration Testing*
-* **Prerequisite:** A valid "Backend Integration Test Command" must be configured in *Project > Project Settings*. You must prepare and have your test tools and test scripts ready.
-* **Action:** Triggers the full backend test suite in the background.
-* **Outcome:**
-    * Executes the configured command (e.g., `pytest tests/integration`).
-    * Generates a formal **Integration Test Report** in `docs/test_reports/`, detailing pass/fail status for every module.
+* **Prerequisite:** A valid "Backend Integration Test Command" must be configured in *Project Settings*.
+* **Action:** Generates and triggers a full backend test suite for the sprint in the background.
+* **Outcome:** Generates a formal **Integration Test Report** in `docs/test_reports/`.
 
 ### Initiate Regression Testing (Targeted)
-Useful for verifying a specific bug fix in a sprint or running a focused subset of tests.
-* **Navigation:** *Project > Testing > Initiate Regression Testing*
-* **Flexibility:** Unlike the Integration check, this command can be overriden during the test environment setup workflow when it pauses to ask for it.
-    * If no command has already been entered and saved in the Project Settings, the system pre-populates your default test command but allows you to edit it (e.g., appending `-k "test_login_failure"` to run a single test case).
-* **Outcome:** Runs the specific command and logs the results to the project history.
+Useful for verifying a specific bug fix or running a set of unit tests.
+* **Flexibility:** Unlike the Integration check, you can override the command during test environment setup or by setting it via the project settings menu.
+* **Action:** The system pre-populates your default command but allows edits (e.g., appending `-k "test_login_failure"` to run a single case).
+* **Outcome:** Runs the specific command and logs results to project history.
 
 ---
 
 ## 3. Front-End Validation
-These options are available only if your project is flagged as a **GUI Project**.
+Available only for projects flagged as **GUI Projects**.
 
 ### Generate Manual UI Test Plan
-Useful for visual QA or when automated UI testing is too brittle.
-* **Navigation:** *Project > Testing > Generate Manual UI Test Plan*
-* **System Behavior:** Klyve analyzes your approved **UX/UI Specification** and generates a comprehensive, human-readable checklist.
-* **Outcome:** A formatted Manual Test Plan (Markdown/Docx) is saved to your documents folder, listing every user journey, expected behavior, and pass/fail criteria. You can upload the updated document (with your test results) later.
+Useful for visual QA or when automated testing is too brittle.
+* **Action:** Klyve analyzes your approved **UX/UI Specification**.
+* **Outcome:** Generates a human-readable **Manual Test Checklist** (Markdown/Docx). You can download this file, perform the verification, and upload results later.
 
 ### Initiate Automated UI Testing
 Useful for end-to-end regression of the interface.
-* **Navigation:** *Project > Testing > Initiate Automated UI Testing*
-* **Prerequisite:** A valid "UI Test Command" (e.g., Selenium, Playwright, or PyTest-Qt instructions) must be configured in *Project > Project Settings*.
-* **Action:** You need to prepare ready your test tools and scripts. Klyve executes the UI runner in a background process.
-* **Outcome:** It parses the runner's raw output and correlates it with your specs to produce an **Automated Front-End Test Report**.
+* **Prerequisite:** A valid "UI Test Command" (e.g., Selenium, Playwright) must be configured in *Project Settings*.
+* **Action:** Klyve generates the tests and executes the UI runner in a background process.
+* **Outcome:** Parses the runner's raw output to produce an **Automated Front-End Test Report**.
 
 ---
 
 ## 4. Configuration
-To define the commands used by these workflows, navigate to **Project > Project Settings**.
+Navigate to **Project > Project Settings** to define your test runners.
 
-* **Backend Integration Command:** The default command for logic tests.
-* **Automated UI Test Command:** The default command for GUI drivers.
-* **Test Environment Setup:** You can save the setup checklist generated during the project's test environment setup phase and review it at any time in the *Documents*.
+* **Backend Regression Testing Command:** The default command for a suite of unit tests (e.g., `pytest`).
+* **Backend Integration Command:** The default command for backend integration tests.
+* **Automated UI Test Command:** The default command for GUI drivers that were setup during the Test Environment Setup phase.
+* **Test Environment Setup:** You can review the setup checklist generated during the project's initialization at any time in the *Documents* section. (Use the "Save to .docx" option to create the checklist document during the Dev and Test Environment Setup phase).
