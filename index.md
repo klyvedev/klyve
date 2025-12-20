@@ -25,7 +25,7 @@ Scale yourself. Build, test, and maintain entire applications as a<br />**Solo S
 ## Stop Typing. Start Orchestrating.
 The current generation of AI develoment tools are **Tactical Assistants**. They live in your IDE, autocomplete your lines, and help you write functions faster. But you still have to wire them together, write the tests, and maintain the documentation.
 
-Klyve is different. It is an **Orchestration Engine**. You first provide an architectural guideline; Klyve handles the implementation details across the entire lifecycle.
+Klyve is different. It is an **Autonomous Software Engineering System**. You provide a requirement or an architectural guideline; Klyve handles the implementation details across the entire lifecycle.
 
 | Feature | Tactical Assistants (Code Generators) | Klyve (Software Factory) |
 |:---|:---|:---|
