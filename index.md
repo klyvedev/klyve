@@ -6,13 +6,19 @@ description: "Klyve: The Automated Software Factory for the Solo Senior Develope
 permalink: /
 ---
 
-# The Automated Software Factory
-{: .fs-9 }
+# Klyve
+{: .fs-9 .text-center }
+
+The Automated Software Factory
+{: .fs-6 .fw-300 .text-center }
 
 Scale yourself. Build, test, and maintain team-scale applications as a **Solo Senior Developer**.
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 .text-center }
 
-[Download Klyve (free)](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Capabilities](capabilities.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+<div class="text-center mt-4">
+  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Download Klyve (free)</a>
+  <a href="/capabilities/" class="btn fs-5 mb-4 mb-md-0">View Capabilities</a>
+</div>
 
 ---
 
