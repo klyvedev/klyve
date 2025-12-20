@@ -16,7 +16,7 @@ On-demand validation tools for continuous stability.
 ## 1. The Testing Philosophy
 While Klyve enforces mandatory quality gates at the end of a sprint, you often need to run ad-hoc checks during development. Configure all on-demand test commands via the **Project > Testing** menu. Klyve does the rest of the work.
 
-<div align="center">
+<div align="center" markdown="1">
 
 | Testing Phase | Script Source (Who writes the code?) | Execution Source (Who presses the button?) | Test Runner Command Source (Where is the command defined?) |
 | :--- | :--- | :--- | :--- |
