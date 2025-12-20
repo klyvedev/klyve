@@ -41,7 +41,7 @@ Klyve gets you 90% of the way there. But AI can make mistakes. The final mile—
 Klyve is a powerful engine, but it requires a skilled leader.
 
 * **It Is Not Magic:** LLMs can hallucinate. Klyve has built-in self-correction loops to catch syntax errors and logic flaws, but it is not infallible. You will occasionally need to step in to fix a bug, spot an omission or unblock a test environment.
-* **Scale Limits:** Klyve is optimized for clearly defined services and applications. It is not designed to generate a sprawling enterprise application in a single prompt.
+* **Scale Limits:** Klyve is optimized for clearly defined services and small to medium sized applications, or parts of a larger application. It is not designed to generate a sprawling enterprise application in a single prompt.
 * **The UI/UX Boundary:** Klyve is an engineering tool, not a creative UI design agency. If your project requires a GUI, it generates functional, clean interfaces (e.g., PySide6, React), but expect to apply your own visual polish.
 
 ---
