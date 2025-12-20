@@ -22,7 +22,7 @@ Scale yourself. Build, test, and maintain entire applications as a<br />**Solo S
 
 ---
 
-## Stop Typing. Start Orchestrating.
+## Beyond Code Generation: Full-Lifecycle Engineering
 The current generation of AI develoment tools are **Tactical Assistants**. They live in your IDE, autocomplete your lines, and help you write functions faster. But you still have to wire them together, write the tests, and maintain the documentation.
 
 Klyve is different. It is an **Autonomous Software Engineering System**. You provide a requirement or an architectural guideline; Klyve handles the implementation details across the entire lifecycle.
