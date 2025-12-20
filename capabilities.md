@@ -42,4 +42,4 @@ Documentation is treated as a first-class citizen, not an afterthought.
 * **OS Support:** Klyve is built natively for **Windows** and **Linux**.
 
 ---
-[Get Started Now](index.html#get-started){: .btn .btn-primary .fs-5 }
+[Get Started Now](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 }
