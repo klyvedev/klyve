@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Legal
+title: License and Legal
 nav_order: 7
 ---
 
 # Legal & Compliance
 {: .fs-9 }
 
-Terms of Service, Privacy Policy, and Open Source Attributions.
+End User License Agreemement, Privacy Policy, and Open Source Attributions.
 {: .fs-6 .fw-300 }
 
 ---
