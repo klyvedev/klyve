@@ -24,7 +24,7 @@ A chronological look at the Factory Floor - from starting idea to built release.
 ## Step 2: The Logic (Planning)
 **The Goal:** Translate the "What" (Specs) into the "How" (Work Items).
 
-Once specs are approved, Klyve generates a hierarchical **Project Backlog**. For application maintenance projects it will mark all existing items as complete and you can add maintenance changes as new backlog items. Before a sprint starts, two critical checks occur:
+Once specs are approved, Klyve generates a hierarchical **Project Backlog**. For maintenance projects, it marks existing items as complete. You just add the new changes. Before a sprint starts, two critical checks occur:
 
 1.  **Implementation Planning:** Generates a step-by-step **Logic Plan** detailing exactly which functions will be created and the order of operations. Get expert input from AI reviewers for security, scalability and general best practices.
 2.  **Impact Analysis:** For change requests, an analysis identifies which existing files will be touched, flagging potential regressions.
