@@ -7,7 +7,7 @@ nav_order: 3
 # The Workflow
 {: .fs-9 }
 
-A chronological look at the "Factory Floor"—from raw idea to built release.
+A chronological look at the Factory Floor - from starting idea to built release.
 {: .fs-6 .fw-300 }
 
 ---
