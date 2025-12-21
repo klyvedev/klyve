@@ -33,7 +33,7 @@ You provide the architectural vision. Whether it is a small project brief or an 
 Development is 10% inspiration and 90% labor. Klyve handles the labor: detailed spec writing, backlog generation, logic planning, coding, unit testing, and documentation updates.
 
 ### 3. You Refine
-Klyve gets you 90% of the way there. But AI can make mistakes. The final mile—nuanced business logic, UI polish, and system integration—requires your intuition. You receive documented code that is ready for your expert finishing touch.
+Klyve gets you 90% of the way there. But AI can make mistakes. The final mile - nuanced business logic, UI polish, and system integration - requires your intuition. You receive documented code that is ready for your expert finishing touch.
 
 ---
 
