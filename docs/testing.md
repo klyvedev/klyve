@@ -14,7 +14,7 @@ On-demand validation tools for continuous stability.
 ---
 
 ## 1. The Testing Philosophy
-While Klyve enforces mandatory quality gates at the end of a sprint, you often need to run ad-hoc checks during development. Configure all on-demand test commands via the **Project > Testing** menu. Klyve does the rest of the work.
+While Klyve enforces mandatory quality gates at the end of a sprint, you often need to run ad-hoc checks during development. Configure all on-demand test commands via the **Project > Testing** menu and have your test tools in place. Klyve does the rest of the work.
 
 <div align="center" markdown="1">
 
@@ -33,17 +33,17 @@ While Klyve enforces mandatory quality gates at the end of a sprint, you often n
 ## 2. Backend Validation
 Validates logic, API, and database layers without spinning up the UI.
 
+### Initiate Regression Testing (Targeted)
+Useful for verifying a specific bug fix or running a set of unit tests.
+* **Flexibility:** You can set a run command via the Project Settings menu. If you miss doing this the system will automatically generate one during test environment setup, at which time you can override it with your own.
+* **Action:** The system pre-populates your default command and allows edits to it via the Project Settings menu.
+* **Outcome:** Runs the specific command and logs results to project history.
+
 ### Initiate Integration Testing
 Useful for a quick "Health Check" of the entire backend.
 * **Prerequisite:** A valid "Backend Integration Test Command" must be configured in *Project Settings*.
-* **Action:** Generates and triggers a full backend test suite for the sprint in the background.
+* **Action:** Generates and triggers a full backend test suite for the sprint in the background. The system also does a sprint-level integration test on completion of all development tasks in a sprint and generates a temporary command for it that you can override with your own.
 * **Outcome:** Generates a formal **Integration Test Report** in `docs/test_reports/`.
-
-### Initiate Regression Testing (Targeted)
-Useful for verifying a specific bug fix or running a set of unit tests.
-* **Flexibility:** Unlike the Integration check, you can override the command during test environment setup or by setting it via the project settings menu.
-* **Action:** The system pre-populates your default command but allows edits (e.g., appending `-k "test_login_failure"` to run a single case).
-* **Outcome:** Runs the specific command and logs results to project history.
 
 ---
 
@@ -58,7 +58,7 @@ Useful for visual QA or when automated testing is too brittle.
 ### Initiate Automated UI Testing
 Useful for end-to-end regression of the interface.
 * **Prerequisite:** A valid "UI Test Command" (e.g., Selenium, Playwright) must be configured in *Project Settings*.
-* **Action:** Klyve generates the tests and executes the UI runner in a background process.
+* **Action:** Klyve generates the tests and executes your UI test runner in a background process.
 * **Outcome:** Parses the runner's raw output to produce an **Automated Front-End Test Report**.
 
 ---
@@ -66,7 +66,7 @@ Useful for end-to-end regression of the interface.
 ## 4. Configuration
 Navigate to **Project > Project Settings** to define your test runners.
 
-* **Backend Regression Testing Command:** The default command for a suite of unit tests (e.g., `pytest`).
-* **Backend Integration Command:** The default command for backend integration tests.
+* **Backend Unit/Regression Testing Command:** The default command for a suite of unit tests (e.g., `pytest`).
+* **Backend Integration Command:** The default command for running the entire suite of backend integration tests.
 * **Automated UI Test Command:** The default command for GUI drivers that were setup during the Test Environment Setup phase.
 * **Test Environment Setup:** You can review the setup checklist generated during the project's initialization at any time in the *Documents* section. (Use the "Save to .docx" option to create the checklist document during the Dev and Test Environment Setup phase).
