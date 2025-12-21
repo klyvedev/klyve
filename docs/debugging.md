@@ -34,7 +34,7 @@ These occur when the factory floor is missing a tool (e.g., `npm` not found, net
     * **Action:** Click **Retry** to re-run the failed task without losing sprint progress.
 * **Option B: "Stop & Export Project"**
     * **Scenario:** The environment is hopelessly broken.
-    * **Action:** Aborts the sprint safely. Klyve saves the current project state, allowing you to resume after fixing the environment.
+    * **Action:** Aborts the sprint safely. Klyve saves the current project state and exports it, allowing you to resume after fixing the environment.
 
 ---
 
