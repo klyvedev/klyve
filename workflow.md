@@ -52,8 +52,8 @@ You click **"Start Sprint."** The interface shifts to the **Live Log View**. Kly
 ## Step 4: The Delivery (Review & Release)
 **The Goal:** A clean handoff of working software.
 
-When sprint tasks are complete, Klyve runs the **Full Regression Suite**. Upon success, you receive:
+When sprint development tasks are complete, Klyve runs the **Full Regression Test Suite** followed by a **Sprint Integration Test Suite**. Upon success, you receive:
 
 1.  **The Code:** Committed, merged, and ready for deployment.
-2.  **The Reports:** Full Backlog Traceability and Test Execution reports.
+2.  **The Reports:** Full Backlog Traceability and detailed Test Execution reports.
 3.  **The Documentation:** Your Specifications are automatically updated to reflect the changes made during the sprint.
