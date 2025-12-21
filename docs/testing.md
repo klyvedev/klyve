@@ -21,8 +21,8 @@ While Klyve enforces mandatory quality gates at the end of a sprint, you often n
 | Testing Phase | Script Source (Who writes the code?) | Execution Source (Who presses the button?) | Test Runner Command Source (Where is the command defined?) |
 | :--- | :---: | :---: | :--- |
 | **Unit Testing** | Klyve | Klyve | Project Settings <br> Field: "Test Execution Command" |
-| **Backend Regression** | Klyve | Klyve | Project Settings <br> Field: "Test Execution Command" (Re-uses Unit Test setting) |
-| **Backend Integration** | Klyve | Klyve | Klyve <br> (Internally generated for the temporary script) |
+| **Backend Regression** | Klyve | Klyve | Project Settings <br> Field: "Backend Regression Test Command" (Re-uses Unit Test setting) |
+| **Backend Integration** | Klyve | Klyve | Klyve <br> "Backend Integration Test Command" or internally generated for the temporary script. |
 | **Automated UI** | Klyve | Klyve | Project Settings <br> Field: "Automated UI Test Command" |
 | **Manual UI** | Klyve (Writes Test Plan doc) | User | N/A <br> (Human execution) |
 
