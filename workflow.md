@@ -17,14 +17,14 @@ A chronological look at the Factory Floor - from starting idea to built release.
 
 1.  **New Application:** Paste a raw text brief or upload requirements documents. Klyve will do an assessment and guide you forward from there.
 
-2.  **Existing Codebase:** Point Klyve to a local directory to index your current architecture. Klyve's **Analysis Engine** scans your input to assess technical risks. It reverse engineers your code and generates professional **UX/UI**, **Application**, **Technical Specifications** and DB Schema (if applicable) documents. You review, refine, and **Approve** these to lock the scope.
+2.  **Existing Codebase:** Point Klyve to a local directory to index your current architecture. Klyve's **Analysis Engine** analyzes your code base and generates professional **UX/UI**, **Application**, **Technical Specifications** and **DB Schema** (if applicable) documents in .docx and .md formats. 
 
 ---
 
 ## Step 2: The Logic (Planning)
 **The Goal:** Translate the "What" (Specs) into the "How" (Work Items).
 
-Once specs are approved, Klyve generates a hierarchical **Project Backlog**. Before a sprint starts, two critical checks occur:
+Once specs are approved, Klyve generates a hierarchical **Project Backlog**. For application maintenance projects it will mark all existing items as complete and you can add maintenance changes as new backlog items. Before a sprint starts, two critical checks occur:
 
 1.  **Implementation Planning:** Generates a step-by-step **Logic Plan** detailing exactly which functions will be created and the order of operations. Get expert input from AI reviewers for security, scalability and general best practices.
 2.  **Impact Analysis:** For change requests, an analysis identifies which existing files will be touched, flagging potential regressions.
