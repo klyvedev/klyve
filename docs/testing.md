@@ -18,7 +18,7 @@ While Klyve enforces mandatory quality gates at the end of a sprint, you often n
 
 <div align="center" markdown="1">
 
-| Testing Phase | Script Source (Who writes the code?) | Execution Source (Who presses the button?) | Test Runner Command Source (Where is the command defined?) |
+| Testing Phase | Script Source (Who writes the code?) | Execution Source (Who runs the test?) | Test Runner Command Source (Where is the command defined?) |
 | :--- | :---: | :---: | :--- |
 | **Unit Testing** | Klyve | Klyve | Project Settings <br> Field: "Backend Unit/Regression Test Command" |
 | **Backend Regression** | Klyve | Klyve | Project Settings <br> Field: "Backend Regression Test Command" (Re-uses Unit Test setting) |
