@@ -15,10 +15,9 @@ A chronological look at the Factory Floor - from starting idea to built release.
 ## Step 1: The Input (Elaboration)
 **The Goal:** Move smoothly from "vague idea" to "ratified specification".
 
-1.  **New Application:** Paste a raw text brief or upload requirements documents.
-2.  **Existing Codebase:** Point Klyve to a local directory to index your current architecture.
+1.  **New Application:** Paste a raw text brief or upload requirements documents. Klyve will do an assessment and guide you forward from there.
 
-Klyve's **Analysis Engine** scans your input to assess technical risks. Once ambiguities are resolved, it generates professional **UX/UI**, **Application** and **Technical Specifications**. You review, refine, and **Approve** these to lock the scope.
+2.  **Existing Codebase:** Point Klyve to a local directory to index your current architecture. Klyve's **Analysis Engine** scans your input to assess technical risks. It reverse engineers your code and generates professional **UX/UI**, **Application**, **Technical Specifications** and DB Schema (if applicable) documents. You review, refine, and **Approve** these to lock the scope.
 
 ---
 
