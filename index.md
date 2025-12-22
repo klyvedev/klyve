@@ -16,7 +16,7 @@ Scale yourself. Build, test, and maintain entire applications as a<br />**Solo S
 {: .fs-6 .fw-300 .text-center }
 
 <div class="text-center mt-4">
-  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Download Klyve (free)</a>
+  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Download Klyve (Free Beta)</a>
   <a href="/capabilities/" class="btn fs-5 mb-4 mb-md-0">View Capabilities</a>
 </div>
 
