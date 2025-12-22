@@ -22,7 +22,8 @@ Klyve is a compiled desktop application. You can download the latest installer f
 * **Project Reports:** Four specific project reports have not yet been implemented in this release. The menu options for these in the *Reports Hub* will appear disabled.
 
 **Troubleshooting**
-* **Linux Users:** If Klyve fails to start after a re-install, you may need to clear the local database state. Run the following command in your terminal:
+* **Linux Users:** If Klyve fails to start after a re-download, you may need to clear the local database state. Run the following command in your terminal:
     ```bash
     rm -rf ~/.klyve
+
     ```
