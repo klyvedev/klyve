@@ -28,13 +28,13 @@ Once a specification is approved, Klyve acts as your implementation team.
 Klyve ensures reliability through a hybrid testing approach.
 * **Unit Tests:** Klyve automatically writes **and** runs unit tests for the code it generates.
 * **UI Testing:** For visual elements, Klyve generates detailed **manual test cases** that guide you through verifying the user interface.
-* **Custom Integration Tests:** Klyve writes backend or integration test scripts, and executes them automatically as part of the sprint process.
+* **Custom Integration Tests:** Klyve writes backend regression and integration test scripts, and executes them automatically as part of the sprint process.
 
 ## 4. Documentation and Reporting
 Documentation is treated as a first-class citizen, not an afterthought.
-* **Live Docs:** As code changes, Klyve updates and versions the corresponding documentation. You can access all project documentation in the Document Hub, add review comments and record approvals for each document.
-* **Traceability:** You can trace every requirement forward to implemented functions in a Requirements Traceability Report.
-* **Reporting:** A Reports Hub provides you with information about project completion, sprint performance, sprint deliverables and backlog requirements traceability. Through the Projects menu you can also access your sprint histories.
+* **Live Docs:** As code changes, Klyve updates and versions the corresponding documentation. You can access all project documentation in the Document Hub, **add review comments and record approvals** for each document.
+* **Traceability:** You can trace every requirement forward to implemented functions in a **Requirements Traceability Report**.
+* **Reporting:** A Reports Hub provides you with information about project completion, sprint performance and sprint deliverables. Access your sprint histories through the Projects menu.
 
 ## 5. Security & Privacy
 * **Secure Storage:** Project document, records and artifacts are stored in a secure local database structure.
