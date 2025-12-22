@@ -32,8 +32,8 @@ Klyve ensures reliability through a hybrid testing approach.
 
 ## 4. Documentation and Reporting
 Documentation is treated as a first-class citizen, not an afterthought.
-* **Live Docs:** As code changes, Klyve updates and versions the corresponding documentation. You can access all project documentation in the Document Hub.
-* **Traceability:** You can trace every requirement forward to implemented functions.
+* **Live Docs:** As code changes, Klyve updates and versions the corresponding documentation. You can access all project documentation in the Document Hub, add review comments and record approvals for each document.
+* **Traceability:** You can trace every requirement forward to implemented functions in a Requirements Traceability Report.
 * **Reporting:** A Reports Hub provides you with information about project completion, sprint performance, sprint deliverables and backlog requirements traceability. Through the Projects menu you can also access your sprint histories.
 
 ## 5. Security & Privacy
