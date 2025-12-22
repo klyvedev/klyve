@@ -37,8 +37,8 @@ Before generating specs, Klyve assesses the project type:
 Klyve generates the foundational documents for your review.
 * **UX/UI Spec:** User personas, journeys, and screen definitions.
 * **Application Spec:** Functional requirements and scope.
-* **Technical Spec:** Stack selection, database schema, and API architecture.
-* **Action:** Review the drafts. Use **"Refine"** to request changes, then click **"Approve"** to lock the scope and generate the project backlog.
+* **Technical Spec:** Stack selection, database schema, API architecture.
+* **Action:** Review the drafts. Use **"Refine"** to request changes, then click **"Approve"** to lock the scope, generate **coding standards**, receive documented guidance for preparing the **dev and test environments**, generate build scripts and generate the project backlog.
 
 ---
 
