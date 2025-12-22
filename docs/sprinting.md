@@ -46,7 +46,7 @@ The interface shifts to the **Live Log**. Klyve iterates through the plan task-b
 4.  **Unit Testing:** Generates and runs a unit test for the specific component.
 5.  **Commit:** Saves work to the local repository.
 
-> **Handling Failures:** If a task fails, Klyve attempts to self-correct (up to your *Max Debug Attempts*). If it fails, you can **"Pause for Manual Fix"**, launch your IDE, fix the code, and click **"Resume"**.
+> **Handling Failures:** Klyve distinguishes between **Code Logic/Structural Failures**, **Dev Environment Failures**, and **Test Environment Failures**. Logic errors trigger an automated self-correction loop (up to your *Max Debug Attempts*), while environment failures escalate immediately to the Project Manager with failure details and appropriate recovery options.
 {: .note }
 
 ---
