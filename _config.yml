@@ -2,9 +2,14 @@ title: Klyve
 description: The Desktop Software Development Factory.
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
+url: "https://klyve.online"
+
+plugins:
+  - jekyll-seo-tag
+
+author: "Mario J. Lewis"
 
 # UPDATED CONFIGURATION
-url: "https://klyve.online"
 defaults:
   - scope:
       path: ""
