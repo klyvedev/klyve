@@ -48,8 +48,6 @@ Klyve is a powerful engine, but it requires a skilled leader.
 
 ## A Note from the Developer
 
-### A Note from the Developer
-
 >I built Klyve to answer a specific question: *Can we overcome AI’s inherent limitations to build at least mid-sized software applications reliably?*
 >
 >Klyve is the answer. It imposes governance on the AI. I combined my background in operations research, software application design, model training and application, and the operational leadership and management of software engineering to treat the AI not as a magic box, but as a probabilistic engine that requires specific constraints to work the way that you want.
