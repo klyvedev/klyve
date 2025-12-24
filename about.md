@@ -48,11 +48,13 @@ Klyve is a powerful engine, but it requires a skilled leader.
 
 ## A Note from the Developer
 
-> Klyve began as an experiment to answer a specific question: *Can AI build a complete application from start to finish to my specifications?*
->
-> I realized early on that raw LLMs struggle to get far because of inherent limitations; but when made to follow a disciplined, Agile SDLC, they can succeed. I tested this hypothesis by building Klyve iteratively, working solely with an LLM to design and develop an orchestrated version of itself.
->
-> Klyve is the result of that partnership. It is practical proof that when human experience is paired with AI, even a single developer can deliver software at scale.
+### A Note from the Developer
+
+>I built Klyve to answer a specific question: *Can we overcome AI’s inherent limitations to build at least mid-sized software applications reliably?*
+
+>Klyve is the answer. It imposes governance on the model. I combined my background in operations research, software application design, model training and application, and the operational leadership and management of software engineering to treat the AI not as a magic box, but as a probabilistic engine that requires specific constraints to work the way that you want.
+
+>This kind of partnership works. The AI provides the "canned wisdom" and tireless execution, while you provide the vision and tight direction. Klyve handles the 90% - the heavy lifting - leaving you to apply the critical 10%: the human capability that no machine can easily replicate.
 >
 > **Mario J. Lewis**
 >
