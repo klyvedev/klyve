@@ -20,7 +20,7 @@ Most coding assistants require you to think in code snippets. Klyve thinks in pr
 
 ## 2. Automated Development
 Once a specification is approved, Klyve acts as your implementation team.
-* **Code Generation:** Klyve writes functional, standard Python code to match the requirements.
+* **Code Generation:** Klyve writes functional, standard code to match the requirements.
 * **Refactoring:** It can update existing code to improve structure or performance without breaking functionality.
 * **Dependency Management:** Klyve identifies library imports and requirements automatically.
 
