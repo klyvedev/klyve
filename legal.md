@@ -19,7 +19,7 @@ This agreement governs the use of the Klyve Desktop Software Factory. It defines
 
 END USER LICENSE AGREEMENT (EULA) FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
 
-IMPORTANT â€“ READ CAREFULLY: This End User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User") and Mario Joseph Lewis ("Developer") for the Klyve software application, including its source code, user interface, structure, and associated documentation (collectively, the "Software").
+IMPORTANT. READ CAREFULLY: This End User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User") and Mario Joseph Lewis ("Developer") for the Klyve software application, including its source code, user interface, structure, and associated documentation (collectively, the "Software").
 
 BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT USE THE SOFTWARE AND UNINSTALL IT IMMEDIATELY.
 
