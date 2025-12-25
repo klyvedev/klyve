@@ -6,6 +6,7 @@ url: "https://klyve.online"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 author: "Mario J. Lewis"
 
