@@ -55,12 +55,12 @@ To optimize costs and performance, you can assign different models to different 
 
 ---
 
-## 4. Environment Dependencies
-Klyve uses a "Sidecar" pattern to minimize dependencies, but requires a few external tools:
+## 4. Other External Conveniences
+Klyve uses a "Sidecar" pattern to minimize dependencies, but a few external integrations have been offered for convenience:
 
 * **Git:** Ensure Git is installed and accessible in your system PATH for version control integration.
 * **IDE:** Configure your preferred editor (e.g., `code.cmd`, `pycharm64.exe`) in **File > Settings > IDE Configuration**. This allows Klyve to launch your editor during manual debugging sessions.
-* **Templates (Optional):** You can upload custom `.docx` styles and templates in **File > Settings > Templates** if you need the generated specs to match a corporate style and structure.
+* **Templates:** You can upload custom `.docx` styles and templates in **File > Settings > Templates** if you need the generated specs to match a corporate style and structure.
 
 ---
 
