@@ -1,5 +1,5 @@
 # Klyve
-**The Desktop Software Development Factory**
+**The Automated Software Factory**
 
 > Execute the entire software lifecycle—from requirements to deployment—on your local machine. No cloud dependencies. No lost IP.
 
