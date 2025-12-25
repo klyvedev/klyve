@@ -29,7 +29,7 @@ search_enabled: true
 # Top Right Navigation Links
 # Changed to "Releases" since source is not public
 aux_links:
-  "Releases":
+  "Download Beta":
     - "https://github.com/klyvedev/klyve/releases"
 
 # Footer
