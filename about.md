@@ -48,8 +48,8 @@ Klyve is a powerful engine, but it requires a skilled leader.
 
 ## A Note from the Developer
 
->The "Dogfood" Origin Story
-
+>**The "Dogfood" Origin Story**
+>
 >I am a retired technologist with a 35-year career spanning from self-taught coding to executive management. While my architectural fundamentals remained sharp, my hands-on coding skills had long since faded.   
 >
 >When I set out to build software again (for fun) after retirement, I didn't want to spend time learning syntax. I wanted to architect working systems. Klyve was born from this need.
