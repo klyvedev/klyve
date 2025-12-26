@@ -32,9 +32,9 @@ These occur when the factory floor is missing a tool (e.g., `npm` not found, net
 * **Option A: "I have fixed the issue, Retry"**
     * **Scenario:** You installed the missing dependency or restored internet access.
     * **Action:** Click **Retry** to re-run the failed task without losing sprint progress.
-* **Option B: "Stop & Export Project"**
-    * **Scenario:** The environment is hopelessly broken.
-    * **Action:** Aborts the sprint safely. Klyve saves the current project state and exports it, allowing you to resume after fixing the environment.
+* **Option B: "Close Project"**
+    * **Scenario:** The environment is broken and requires external maintenance (e.g., system restart, PATH update).
+    * **Action:** Pauses the sprint safely. Klyve saves the current project state and closes it, allowing you to resume after fixing the environment.
 
 ---
 
@@ -64,10 +64,21 @@ Seamlessly interject your expertise into the automated pipeline.
 ---
 
 ## 5. Handling Regression Failures
-If the full regression suite fails at the end of a sprint:
+At the end of a sprint, Klyve runs mandatory verification tests. Failures here are handled differently depending on whether the *tool* failed or the *code* failed.
+
+### A. Environment Failures (Tooling Issues)
+These occur if the test runner fails to execute (e.g., "command not found," missing libraries).
+
+* **Option A: "I have fixed the issue, Retry"**
+    * **Action:** Re-attempts to execute the test command after you have corrected the system environment.
+* **Option B: "Close Project"**
+    * **Action:** Safely pauses the project to allow for external system configuration (e.g., restarts, shell updates). Resuming brings you back to this checkpoint.
+
+### B. Logic Failures (Assertion Errors)
+These occur when the tests execute successfully but report failures in your code (failed assertions).
 
 * **Option A: Debug Manually (Pause the Sprint)**
-    * The sprint remains open. You follow the Manual Fix workflow to resolve the regression.
+    * **Action:** The sprint remains open. You follow the **Manual Fix Workflow** to resolve the regression (in your IDE if you configured it in Klyve).
 * **Option B: Acknowledge & Complete (Ship with Issues)**
-    * The sprint is marked **Completed** and features are merged.
-    * Klyve automatically creates a **Bug Report** in the backlog for the regression failure, ensuring technical debt is tracked.
+    * **Action:** The sprint is marked **Completed** and features are merged.
+    * Klyve automatically creates a **High-Priority Bug Report** in the backlog for the regression failure, ensuring technical debt is tracked.
