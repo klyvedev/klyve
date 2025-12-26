@@ -82,3 +82,45 @@ These occur when the tests execute successfully but report failures in your code
 * **Option B: Acknowledge & Complete (Ship with Issues)**
     * **Action:** The sprint is marked **Completed** and features are merged.
     * Klyve automatically creates a **High-Priority Bug Report** in the backlog for the regression failure, ensuring technical debt is tracked.
+
+---
+
+## 6. Handling Sprint Integration Failures
+After regression testing, Klyve generates and runs a targeted integration test for the new sprint features. Failures here trigger the Debug Dashboard.
+
+### A. Environment Failures
+* **Option A: "I have fixed the issue, Retry"**
+    * **Action:** Re-runs the test command after you have fixed the system environment.
+* **Option B: "Close Project"**
+    * **Action:** Safely pauses the project.
+
+### B. Logic Failures
+* **Option A: Debug Manually**
+    * **Action:** Pauses the sprint. You can fix the generated script or your code, then resume.
+* **Option B: Skip & Log Bug**
+    * **Action:** Bypasses this specific test.
+    * Klyve marks the task as **Skipped** and automatically logs a **Bug Report** in the backlog before proceeding to the Front-end decision phase.
+
+---
+
+## 7. Handling UI Testing Failures
+The workflow differs significantly depending on your chosen strategy (Automated vs. Manual).
+
+### A. Automated UI Testing
+This path triggers the standard Debug Dashboard if issues arise.
+
+* **Script Generation Failure:** If Klyve fails to write a valid test script:
+    * **Action:** You are presented with a fallback decision to **Switch to Manual Testing** or **Skip** entirely.
+* **Execution Failure (Environment):** (e.g., Selenium driver missing, browser crash)
+    * **Options:** **Retry** (after fixing the environment) or **Close Project**.
+* **Execution Failure (Logic):** (e.g., "Button not found", assertion error)
+    * **Debug Manually:** Pauses the sprint. You can fix the generated test script or the frontend code in your IDE.
+    * **Skip & Log Bug:** Bypasses the test. Klyve logs a **Bug Report** and moves to Sprint Review.
+
+### B. Manual UI Testing
+This path is human-driven and does not trigger the system's Debug Dashboard.
+
+* **Process:** You download the generated test plan, perform the tests, and upload the results.
+* **Handling Failures:** If your uploaded results indicate failures:
+    * **Action:** Klyve will highlight these in the **Sprint Review**.
+    * **Resolution:** You must ensure these are logged as **Bug Reports** in the backlog. The system relies on your inputs to track these defects.
