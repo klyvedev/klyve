@@ -4,10 +4,10 @@ title: About
 nav_order: 4
 ---
 
-# The Klyve Philosophy
+# The "Senior Partner" Philosophy
 {: .fs-9 }
 
-AI is a force multiplier, not a replacement for people.
+Scaling the Architect, not replacing the Developer.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,11 +48,17 @@ Klyve is a powerful engine, but it requires a skilled leader.
 
 ## A Note from the Developer
 
->I built Klyve to answer a specific question: *Can we overcome AI’s inherent limitations to build at least mid-sized software applications reliably?*
+>The "Dogfood" Origin Story
+
+>I am a retired technologist with a 35-year career spanning from self-taught coding to executive management. While my architectural fundamentals remained sharp, my hands-on coding skills had long since faded.   
 >
->Klyve is the answer. It imposes governance on the AI. I combined my background in operations research, software application design, model training and application, and the operational leadership and management of software engineering to treat the AI not as a magic box, but as a probabilistic engine that requires specific constraints to work the way that you want.
+>When I set out to build software again (for fun) after retirement, I didn't want to spend time learning syntax. I wanted to architect working systems. Klyve was born from this need.
 >
->This kind of partnership works. The AI provides the "canned wisdom" and tireless execution, while you provide the vision and tight direction. Klyve handles the 90% - the heavy lifting - leaving you to apply the critical 10%: the human capability that no machine can easily replicate.
+>**Klyve was built by Klyve**.
+>
+>I did not write the code for this application in the traditional sense. I defined the requirements, approved the specifications, and managed the backlog. I acted as the "Senior Partner." The AI acted as the junior engineering team, writing the code under my strict supervision.
+>
+>This product is the result of that partnership. It is proof that a single architect, armed with the right process and AI, can build enterprise-grade software without writing every line of code themselves.
 >
 > **Mario J. Lewis**
 >
