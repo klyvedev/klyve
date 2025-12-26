@@ -21,11 +21,12 @@ Klyve is a compiled desktop application. You can download the latest installer f
   
 
 **Troubleshooting**
-* **Windows Users:** If Klyve fails to start after a re-install, you may need to clear out the previous database installation. Delete the C:\Users\\username\\.klyve folder and restart Klyve.
-* **Linux Users:** If Klyve fails to start after a re-install, you may need to clear out the previous database installation. Run the following command in your terminal:
+* **Windows Users:** If Klyve fails to start after a re-install, delete the C:\Users\\username\\.klyve folder and restart Klyve.
+* **Linux Users:** If Klyve fails to start after a re-install, run the following command in your terminal:
     ```bash
     rm -rf ~/.klyve
 
     ```
+
 
 
