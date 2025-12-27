@@ -22,6 +22,13 @@ Strategic answers regarding Security, IP, and Factory Logic.
 
 **A:** Klyve's internal logic, file management, and database work completely offline. However, the core generative and development capabilities require an internet connection to reach your chosen LLM provider's API.
 
+**Q: Does my code leave my machine?** 
+
+**A:** Your source code files remain on your local machine. Klyve sends only the necessary context (prompts and relevant file snippets) to the LLM provider you configure (e.g., OpenAI, Anthropic, or Google) via their secure APIs. There is no Klyve backend on the cloud or anywhere else that receives your IP.
+
+**Q: Who owns the generated code?** 
+**A:** You do. You own 100% of the code Klyve generates. It produces standard, readable code. If you stop using Klyve tomorrow, your project is just a standard codebase that can be opened in your IDE. There is no vendor lock-in on the output.
+
 ---
 
 ## 2. Technical Control & Quality
@@ -52,6 +59,9 @@ Strategic answers regarding Security, IP, and Factory Logic.
 **Q: Which LLMs are supported?**
 
 **A:** Klyve supports several major hosted LLM service providers. You can also configure a **Custom Endpoint** to connect with local models or private cloud instances. You can additionally configure separate models for "Reasoning" and "Quick Tasks" to optimize costs.
+
+**Q: Can I use Klyve on an existing application?** 
+**A:** Yes. Klyve includes the ability to intake and assess an existing application. When you point it to an existing directory, it scans your codebase, analyzes it, and prepares a set of reference specifications for it. This allows you to start managing changes to a legacy project with Klyve's automated workflows immediately.
 
 ---
 
