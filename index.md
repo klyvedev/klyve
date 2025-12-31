@@ -52,6 +52,7 @@ Klyve is designed for the experienced engineer who understands that writing code
     * **The Task Gates:** Klyve pauses and **waits for your explicit authorization** before any significant new task begins execution. During the development phase Klyve requires your authorization before starting every task in the pre-approved development plan.
     * **Transparent Outputs:** While Klyve operates, it maintains internal logs. Upon completion, it publishes human-readable artifacts (Code, Specs, `.docx`, `.xlsx`, `.md`) to your local file system, ensuring you always have a verified copy of the work.
 
+&nbsp;
 
 3.  **Full Lifecycle Management**
     Klyve doesn't just write code. It updates your documentation to match the code, generates unit tests, regression tests and UI tests, and runs these as well as your own additional tests to ensure the new features are good.
