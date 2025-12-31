@@ -38,6 +38,10 @@ Documentation is treated as a first-class citizen, not an afterthought.
 
 ## 5. Security, Data Sovereignty & Governance
 Klyve is architected for professionals who require strict control over their intellectual property.
+### Supply Chain Security (US EO 14028)
+Klyve is built for professional environments that require strict software provenance.
+* **Automated SBOM:** Every release includes a cryptographically verifiable **Software Bill of Materials (SPDX JSON)**.
+* **Zero-Trust Build:** Our build pipeline (Nuitka + Syft) ensures full transparency of all primary and binary dependencies.
 
 * **Encrypted State Storage:** All internal project artifacts (specs, code history, state) are stored in a **secure, encrypted local database**.
 * **Accessible Outputs:** For your convenience, Klyve automatically mirrors the latest approved versions of your Code, Readme files, and documentation (as `.docx`, `.xlsx`, and `.md` files) to your designated project folder in plain text.

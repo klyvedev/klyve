@@ -77,6 +77,13 @@ It is not a "High-Risk" autonomous system because *you* retain the final decisio
 * **Data Sovereignty:** Your data stays on your local machine. It is never stored on Klyve servers.
 * **Transparency:** Every specification and code change is saved to your disk in readable formats (`.docx`, `.md`), creating an automatic audit trail.
 
+### Does Klyve support US Risk Management Standards (NIST)?
+**Yes. Klyve is architected to enforce the NIST AI Risk Management Framework (AI RMF).**
+
+Specifically, it addresses the **Manage** and **Govern** functions of the framework:
+* **Map & Measure:** Klyve’s "Audit Phase" forces a mapping of requirements before code generation begins.
+* **Human-Centric Governance:** By refusing to execute code without explicit human approval (the "Senior Partner" model), Klyve acts as a technical control against AI hallucinations and drift.
+
 ---
 
 ## 5. Factory Logic
