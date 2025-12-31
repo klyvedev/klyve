@@ -50,7 +50,8 @@ Klyve is designed for the experienced engineer who understands that writing code
     **(EU AI Act Compliance by Design)**<br />
     Unlike autonomous agents that often struggle with task drift, Klyve uses a **Logic-Heavy Orchestrator** to strictly manage agent behavior. It enforces the  **EU AI Act's Article 14 principles (Human Oversight)** through architecture:
     * **The Task Gates:** Klyve pauses and **waits for your explicit authorization** before any significant new task begins execution. During the development phase Klyve requires your authorization before starting every task in the pre-approved development plan.
-    * **Transparent Outputs:** While Klyve operates, it maintains internal logs. Upon completion, it publishes human-readable artifacts (Code, Specs, `.docx`, `.xlsx`, `.md`) to your local file system, ensuring you always have a verified copy of the work.<br />
+    * **Transparent Outputs:** While Klyve operates, it maintains internal logs. Upon completion, it publishes human-readable artifacts (Code, Specs, `.docx`, `.xlsx`, `.md`) to your local file system, ensuring you always have a verified copy of the work.
+
 
 3.  **Full Lifecycle Management**
     Klyve doesn't just write code. It updates your documentation to match the code, generates unit tests, regression tests and UI tests, and runs these as well as your own additional tests to ensure the new features are good.
