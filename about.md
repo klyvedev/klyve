@@ -38,7 +38,7 @@ You. Klyve does not jump from "Idea" to "Code" as most other tools do. It enforc
 * **Spec Elaboration:** Klyve elaborates your initial requirements into detailed Specifications after giving you an idea about any risks involved in automating the project delivery. You review, refine, and **approve** these specs.
 * **Sprint Planning:** Klyve generates a backlog, helps you define a Sprint, and performs dependency/risk checks. It then presents a **Sprint Development Plan**. You **authorize** this plan.
 * **Task Execution:** Even during development, Klyve pauses before every single task in the plan. It asks for your **Task Authorization** to proceed, ensuring you are never a passive observer.
-* **Refinement:** At every stage—Specs, Backlog, or Plan—you have the opportunity to refine the output before giving final approval.
+* **Refinement:** At every stage - Specs, Backlog, or Plan - you have the opportunity to refine the output before giving final approval.
 
 ---
 
