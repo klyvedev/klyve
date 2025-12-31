@@ -67,14 +67,15 @@ Strategic answers regarding Security, IP, and Factory Logic.
 
 ---
 
-## 4. Regulatory Alignment
+## 4. Regulatory Alignment & Compliance
 
-**Q: Is Klyve a "High-Risk" AI System under the EU AI Act?**
-**A:** Legally, Klyve is a development tool, not a High-Risk system (like a biometric scanner) listed in Annex III of the Act.
-**However**, Klyve is designed to **enable** the development of compliant software by voluntarily adopting **Human Oversight (Article 14)** standards:
-* **No Autonomous Drift:** The system is not a "runaway" agent. It functions as a finite-state machine where the human architect must authorize the start of every new main task.
-* **Task Authorization Gates:** Klyve presents a plan for the upcoming development tasks. It does not proceed until you review and authorize that plan.
-* **Transparency:** You are never locked out. Klyve provides you with standard file formats (`.docx`, `.xlsx`, code) so you can audit the deliverables at any time.
+### Is Klyve compliant with the EU AI Act?
+**Klyve is designed for Compliance.** While it is a development tool, it voluntarily adopts **Article 14 (Human Oversight)** standards to ensure you remain the Data Controller.
+
+It is not a "High-Risk" autonomous system because *you* retain the final decision rights on all outputs:
+* **Human-in-the-Loop:** The orchestrator halts for approval before every critical action (Planning, Coding, Committing).
+* **Data Sovereignty:** Your data stays on your local machine. It is never stored on Klyve servers.
+* **Transparency:** Every specification and code change is saved to your disk in readable formats (`.docx`, `.md`), creating an automatic audit trail.
 
 ## 5. Factory Logic
 
