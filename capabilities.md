@@ -36,10 +36,13 @@ Documentation is treated as a first-class citizen, not an afterthought.
 * **Traceability:** You can trace every requirement forward to implemented functions in a **Requirements Traceability Report**.
 * **Reporting:** A Reports Hub provides you with information about project completion, sprint performance and sprint deliverables. Access your sprint histories through the Projects menu.
 
-## 5. Security & Privacy
-* **Secure Storage:** Project document, records and artifacts are stored in a secure local database structure.
-* **No Third-Party Sharing:** Klyve does not share artifacts with any remote servers other than the LLM provider you explicitly choose.
-* **OS Support:** Klyve is built natively for **Windows** and **Linux**.
+## 5. Security, Data Sovereignty & Governance
+Klyve is architected for professionals who require strict control over their intellectual property.
+
+* **Encrypted State Storage:** All internal project artifacts (specs, code history, state) are stored in a **secure, encrypted local database**.
+* **Accessible Outputs:** For your convenience, Klyve automatically mirrors the latest approved versions of your Code, Readme files, and documentation (as `.docx`, `.xlsx`, and `.md` files) to your designated project folder in plain text.
+* **Governance (Human-in-Command):** You retain absolute authority. Klyve requires your specific authorization to proceed with every development task. It cannot execute development tasks without your approval.
+* **No Third-Party Leakage:** Your IP is never shared with Klyve.online. It exists only on your encrypted local database, your file system and the LLM provider you explicitly choose.
 
 ---
 [Get Started Now](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 }

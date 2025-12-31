@@ -21,28 +21,33 @@ It is designed for the **Solo Professional**: the senior developer, the architec
 
 ---
 
-## The "Glass Box" Approach
-Most AI tools are "Black Boxes". A requirement goes in, and unmaintainable magic comes out. Klyve is a **Glass Box**.
+## The "Orchestrated Agency" Philosophy
+Klyve is not a wrapper; it is a **Deterministic Orchestrator** managing a team of AI Agents.
 
-It generates standard, readable, and architecturally sound code that you own completely.
+We solve the "Black Box" problem through strict architectural separation:
 
-### 1. You Direct
-You provide the architectural vision. Whether it is a small project brief or an exact specification, you set the boundaries. Klyve does not make strategic decisions; it executes your strategy.
+### 1. The Orchestrator (Logic Layer)
+A sophisticated, logic-heavy state machine that defines the strategy, safeguards, and workflow. It manages the context and directs the agents.
 
-### 2. Klyve "Grinds"
-Development is 10% inspiration and 90% labor. Klyve handles the labor: detailed spec writing, backlog generation, logic planning, coding, unit testing, and documentation updates.
+### 2. The Agents (Execution Layer)
+Specialized AI workers that perform specific tasks (writing SQL, generating UI, parsing logs) only when commanded by the Orchestrator.
 
-### 3. You Refine
-Klyve gets you 90% of the way there. But AI can make mistakes. The final mile - nuanced business logic, UI polish, and system integration - requires your intuition. You receive documented code that is ready for your expert finishing touch.
+### 3. The Human (Authority Layer)
+You. Klyve does not jump from "Idea" to "Code" as most other tools do. It enforces a professional SDLC where you retain control at every strategic step:
+
+* **Spec Elaboration:** Klyve elaborates your initial requirements into detailed Specifications after giving you an idea about any risks involved in automating the project delivery. You review, refine, and **approve** these specs.
+* **Sprint Planning:** Klyve generates a backlog, helps you define a Sprint, and performs dependency/risk checks. It then presents a **Sprint Development Plan**. You **authorize** this plan.
+* **Task Execution:** Even during development, Klyve pauses before every single task in the plan. It asks for your **Task Authorization** to proceed, ensuring you are never a passive observer.
+* **Refinement:** At every stage—Specs, Backlog, or Plan—you have the opportunity to refine the output before giving final approval.
 
 ---
 
 ## Realistic Expectations
 Klyve is a powerful engine, but it requires a skilled leader.
 
-* **It Is Not Magic:** LLMs can hallucinate. Klyve has built-in self-correction loops to catch syntax errors and logic flaws, but it is not infallible. You will occasionally need to step in to fix a bug, spot an omission or unblock a test environment.
-* **Scale Limits:** Klyve is optimized for clearly defined services and small to medium sized applications, or parts of a larger application. It is not designed to generate a sprawling enterprise application in a single prompt.
-* **The UI/UX Boundary:** Klyve is an engineering tool, not a creative UI design agency. If your project requires a GUI, it generates functional, clean interfaces (e.g., PySide6, React), but expect to apply your own visual polish.
+* **It Is Not Magic:** LLMs can hallucinate, omit details or make mistakes. Klyve has built-in self-correction loops to catch syntax errors and logic flaws, but it is not infallible. You will occasionally need to step in to fix a bug, spot an omission or even unblock a test environment.
+* **Scale Limits:** Klyve is optimized for clearly defined services and small to medium sized applications, or a larger application in parts. It is not designed to generate a sprawling enterprise application in a single prompt.
+* **The UI/UX Boundary:** Klyve is an engineering tool, not a creative UI design agency. If your project requires a GUI, it generates functional, clean interfaces (e.g., in React), but expect to apply your own visual polish.
 
 ---
 
