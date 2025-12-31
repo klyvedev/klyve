@@ -34,7 +34,7 @@ Klyve is different. It is an **Autonomous Software Engineering System**. You pro
 | **Scope** | Single functions or snippets | Entire Project Lifecycle (Spec to Test) |
 | **Memory** | Context window limited | Persistent Project State |
 | **Testing** | You write the tests | Klyve writes & runs the tests |
-| **Governance** | None (Black Box) | **Human-in-the-Loop (Compliance)** |
+| **Governance** | None (Black Box) | **Human-in-the-Loop (EU AI Act Art. 14)** |
 
 ---
 
@@ -46,10 +46,10 @@ Klyve is designed for the experienced engineer who understands that writing code
 1.  **You Architect, It Builds**
     You don't tab-complete your way through a project. You provide your high-level requirements and technical specifications (or ask Klyve to do the detailing for you from a summary). Once you approve them, Klyve implements them.
 
-2.  **"Orchestrated" Governance**
-    **EU AI Act Compliance by Design.**
+2.  **"Orchestrated" Governance**<br />
+    **EU AI Act Compliance by Design.**<br />
     Unlike autonomous agents that often struggle with task drift, Klyve uses a **Logic-Heavy Orchestrator** to strictly manage agent behavior. It enforces the  **EU AI Act's Article 14 principles (Human Oversight)** through architecture:
-    * **The Task Gate:** The Orchestrator proposes a plan for the next task. Klyve **pauses** and waits for your explicit authorization before any agent begins execution.
+    * **The Task Gates:** Klyve **pauses** and waits for your explicit authorization before any significant new task begins execution. During the development phase Klyve requires your authorization before starting every task in the pre-approved development plan.
     * **Transparent Outputs:** While Klyve operates, it maintains internal logs. Upon completion, it publishes human-readable artifacts (Code, Specs, `.docx`, `.xlsx`, `.md`) to your local file system, ensuring you always have a verified copy of the work.
 
 3.  **Full Lifecycle Management**
