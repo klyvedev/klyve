@@ -77,6 +77,8 @@ It is not a "High-Risk" autonomous system because *you* retain the final decisio
 * **Data Sovereignty:** Your data stays on your local machine. It is never stored on Klyve servers.
 * **Transparency:** Every specification and code change is saved to your disk in readable formats (`.docx`, `.md`), creating an automatic audit trail.
 
+---
+
 ## 5. Factory Logic
 
 **Q: How does Klyve determine the implementation plan?**

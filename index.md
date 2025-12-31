@@ -50,7 +50,7 @@ Klyve is designed for the experienced engineer who understands that writing code
     Klyve replaces "Black Box" autonomy with **Human Oversight (Article 14)** compliance:
     * **The Task Gate:** Klyve *cannot* execute a plan without your explicit authorization.
     * **No Drift:** A logic-heavy orchestrator prevents the "runaway agent" problem.
-    * **Audit Trail:** Every specification, plan, and code change is saved to your local disk in standard formats (`.docx`, `.md`) for total transparency.
+    * **Audit Trail:** Every specification, plan, report and code change is saved to your local disk in standard formats (`.docx`, `.md`, `.xlsx`) for total transparency.
 <br /><br />
 
 3.  **Full Lifecycle Management**
