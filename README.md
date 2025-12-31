@@ -18,17 +18,10 @@ Klyve is a compiled desktop application. You can download the latest installer f
 * During the initial acceptance of the EULA, Linux users may have to click on the Privacy Policy tab twice for the Policy to be displayed. 
 * On the first launch, the app takes several seconds to initialize itself before the EULA appears for acceptance. Subsequent startups will be quicker.
 * When the EULA appears for acceptance on first launch of the app, Linux users will need to click twice on the Privacy Policy tab for the policy to be displayed.
-* Automated UI Testing: If you select "Skip & Log Bug" during a failure escalation, the system treats the test suite as a single unit and moves immediately to the Sprint Review. It does not continue running the remaining tests.
   
 
 **Troubleshooting**
-* **Windows Users:** If Klyve fails to start after a re-install, delete the C:\Users\\username\\.klyve folder and restart Klyve.
-* **Linux Users:** If Klyve fails to start after a re-install, run the following command in your terminal:
+* **Linux Users:** If Klyve fails to start after a re-install, you may need to clear the local database state. Run the following command in your terminal:
     ```bash
     rm -rf ~/.klyve
-
     ```
-
-
-
-
