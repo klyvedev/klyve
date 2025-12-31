@@ -7,7 +7,7 @@ nav_order: 7
 # Legal & Compliance
 {: .fs-9 }
 
-End User License Agreemement, Privacy Policy, and Open Source Attributions.
+**TL;DR:** You own your code. We don't see your data. You control the AI.
 {: .fs-6 .fw-300 }
 
 ---
@@ -15,6 +15,9 @@ End User License Agreemement, Privacy Policy, and Open Source Attributions.
 ## 1. End User License Agreement (EULA)
 **Effective Date:** 08-Dec-2025
 
+<details open>
+  <summary style="cursor: pointer; font-weight: 500; color: #2ea44f;">Click to read/collapse the EULA</summary>
+  <br>
 This agreement governs the use of the Klyve Desktop Software Factory. It defines the terms under which the software is licensed (not sold) to you, including the restrictions on reverse engineering and the limitations of liability regarding AI-generated code.
 
 END USER LICENSE AGREEMENT (EULA) FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
@@ -73,16 +76,18 @@ BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF 
 10.3 Entire Agreement: This Agreement constitutes the entire agreement between you and the Developer with respect to the Software and supersedes all prior or contemporaneous understandings regarding such subject matter. Â 
 
 (End of Agreement)
+</details>
 
 ---
 
 ## 2. Privacy Policy
-**Effective Date:** 08-Dec-2025
+**Core Promise:** Klyve is Local-First. We do not operate a cloud server to store your project data 
 
-Klyve is designed with a "Local-First" privacy architecture. This policy details exactly what data remains on your machine (Source Code, Databases, Project Data, Credentials) and what data is transmitted to third-party LLM providers (API Payloads) during operation.
-
-PRIVACY POLICY FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
-
+PRIVACY POLICY FOR KLYVE Version 1.0 (Beta) 
+.**Effective Date: 08-Dec-2025**
+<details>
+  <summary style="cursor: pointer; font-weight: 500; color: #2ea44f;">Click to read the Privacy Policy</summary>
+  <br>
 1. MY "LOCAL-FIRST" PROMISE: 
 I, Mario J. Lewis ("Developer"), believe your code and project data belong to you. Klyve ("the Software") is designed as a Local-First application. This means:
 
@@ -123,14 +128,16 @@ API Keys: Your API keys are stored locally in an encrypted database on your mach
 I may update this Privacy Policy from time to time. If I make material changes (e.g., if a future version introduces telemetry), I will issue a notification on the Software's website.
 
 (End of Privacy Policy)
+</details>
 
 ---
 
 ## 3. Third-Party Notices
-Klyve stands on the shoulders of giants. We utilize various open-source libraries and frameworks to deliver a robust desktop experience.
+We utilize various open-source libraries to deliver a robust desktop experience.
 
-The following notices provide the full license texts and copyright statements for all third-party software bundled with or used by this application, in compliance with their respective licenses (LGPL, MIT, Apache 2.0, etc.).
-
+<details>
+  <summary style="cursor: pointer; font-weight: 500; color: #2ea44f;">View Open Source Attributions (Huge List)</summary>
+  <br>
 THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 Generated: 08-Dec-2025
 =========================================================================
@@ -8905,3 +8912,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+</details>
