@@ -52,7 +52,6 @@ Klyve is designed for the experienced engineer who understands that writing code
     * **No Drift:** A logic-heavy orchestrator prevents the "runaway agent" problem.
     * **Audit Trail:** Every specification, plan, report and code change is saved to your local disk in standard formats (`.docx`, `.md`, `.xlsx`) for total transparency.
 <br /><br />
-
 3.  **Full Lifecycle Management**
     Klyve doesn't just write code. It updates your documentation to match the code, generates unit tests, regression tests and UI tests, and runs these as well as your own additional tests to ensure the new features are good.
 
