@@ -40,8 +40,8 @@ Documentation is treated as a first-class citizen, not an afterthought.
 Klyve is architected for professionals who require strict control over their intellectual property.
 
 * **Governance (Human-in-Command):** You retain absolute authority. Klyve requires your specific authorization to proceed with every development task. It cannot execute development tasks without your approval.
-* **Encrypted State Storage:** All internal project artifacts (specs, code history, state) are stored in a **secure, encrypted local database**.
-* **No Third-Party Leakage:** Your IP is never shared with Klyve.online. It exists only on your encrypted local database, your file system and the LLM provider you explicitly choose.
+* **Encrypted State Storage:** Klyve-internal project artifacts (specs, code history, project state, API key) are stored in a **secure, encrypted local database**. You have the option to delete each project and its associated data from this database.
+* **No Third-Party Leakage:** Your IP is never shared with Klyve.online. It exists only in your encrypted local database, your file system and the LLM provider you explicitly choose.
 * **Accessible Outputs:** For your convenience, Klyve automatically mirrors the latest approved versions of your Code, Readme files, and documentation (as .docx, .xlsx, and .md files) to your designated project folder in plain text.
 
 ### Supply Chain Security (US EO 14028)
