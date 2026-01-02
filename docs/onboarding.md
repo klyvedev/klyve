@@ -46,7 +46,7 @@ Klyve generates the foundational documents for your review.
 This workflow is for legacy maintenance. Klyve ingests your local source code to build a context map.
 
 ### Step 1: Back up your Codebase
-* AI may make mistakes, and this presents a risk that it may silently introduce new errors into your existing codebase or damage it. To mitigate this risk, always make sure you **have a backup of your current codebase** available before you make changes to it using Klyve.
+* AI may make mistakes, and this presents a risk that it may silently introduce new errors into your existing codebase or damage it. To mitigate this risk, always make sure you **have a backup of your current codebase** available before you make a change to it using Klyve.
 
 ### Step 2: Select Target
 * **Navigate:** *File > New Project* and select **"Work with an Existing Codebase"**.
@@ -65,4 +65,5 @@ Klyve establishes a baseline by generating "Reverse-Engineered" specifications:
 ### Step 5: Maintenance Dashboard
 Once indexed, you are taken to the Dashboard.
 * **Status:** Displays detected languages and codebase health.
-* **Next Step:** Define your coding standards, then navigate to the **Project Backlog** to begin adding bug reports or features.
+* **Next Step:** Define your coding standards, then navigate to the **Project Backlog** to begin adding bug reports or changes. 
+* **After a change:** After the successful completion of each fix or change, remember to **back up your code again as a risk mitigation against AI mistakes in the next change**.
