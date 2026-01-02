@@ -45,8 +45,8 @@ Klyve generates the foundational documents for your review.
 ## 2. Onboarding an Existing Codebase
 This workflow is for legacy maintenance. Klyve ingests your local source code to build a context map.
 
-### Step 1: Back up your Code Base
-* AI may make mistakes during development. There is a risk that it may introduce new errors into your existing codebase or damage it. To mitigate this risk, always make sure you **have a backup of your current codebase** available before you make changes to it using Klyve.
+### Step 1: Back up your Codebase
+* AI may make mistakes, and this presents a risk that it may silently introduce new errors into your existing codebase or damage it. To mitigate this risk, always make sure you **have a backup of your current codebase** available before you make changes to it using Klyve.
 
 ### Step 2: Select Target
 * **Navigate:** *File > New Project* and select **"Work with an Existing Codebase"**.
