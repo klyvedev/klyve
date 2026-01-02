@@ -66,4 +66,4 @@ Klyve establishes a baseline by generating "Reverse-Engineered" specifications:
 Once indexed, you are taken to the Dashboard.
 * **Status:** Displays detected languages and codebase health.
 * **Next Step:** Define your coding standards, then navigate to the **Project Backlog** to begin adding bug reports or changes. 
-* **After a change:** After the successful completion of each fix or change, remember to **back up your code again as a risk mitigation against AI mistakes in the next change**.
+* **After a change:** After the successful completion of each fix or change, remember to **back up your code again as a risk mitigation against potential AI mistakes in the next change**.
