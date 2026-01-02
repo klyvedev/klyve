@@ -47,7 +47,7 @@ Klyve is architected for professionals who require strict control over their int
 ### Supply Chain Security (US EO 14028)
 Klyve is built for professional environments that require strict software provenance.
 * **Automated SBOM:** Every release includes a cryptographically verifiable **Software Bill of Materials (SPDX JSON)**.
-* **Zero-Trust Build:** Our build pipeline (Nuitka + Syft) ensures full transparency of all primary and binary dependencies.
+* **Zero-Trust Build:** Our build pipeline includes Syft to provide full transparency of all primary and binary dependencies.
 
 ---
 [Get Started Now](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .fs-5 }
