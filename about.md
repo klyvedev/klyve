@@ -45,7 +45,7 @@ You. Klyve does not jump from "Idea" to "Code" as most other tools do. It enforc
 ## Realistic Expectations
 Klyve is a powerful engine, but it requires a skilled leader.
 
-* **It Is Not Magic:** LLMs can hallucinate, omit details or make mistakes. Klyve has built-in self-correction loops to catch syntax errors and logic flaws, but it is not infallible. You will occasionally need to step in to fix a bug, spot an omission or even unblock a test environment. **A codebase backup before starting new development tasks is always recommended** for this reason.
+* **It Is Not Magic:** LLMs can hallucinate, omit details or make mistakes. Klyve has built-in self-correction loops to catch syntax errors and logic flaws, but it is not infallible. You will occasionally need to step in to fix a bug, spot an omission or error, or unblock a test environment. 
 * **Scale Limits:** Klyve is optimized for clearly defined services and small to medium sized applications, or a larger application in parts. It is not designed to generate a sprawling enterprise application in a single prompt.
 * **The UI/UX Boundary:** Klyve is an engineering tool, not a creative UI design agency. If your project requires a GUI, it generates functional, clean interfaces (e.g., in React), but expect to apply your own visual polish.
 
