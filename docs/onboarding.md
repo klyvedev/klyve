@@ -45,21 +45,24 @@ Klyve generates the foundational documents for your review.
 ## 2. Onboarding an Existing Codebase
 This workflow is for legacy maintenance. Klyve ingests your local source code to build a context map.
 
-### Step 1: Select Target
+### Step 1: Back up your Code Base
+* AI may make mistakes during development. There is a risk that it may introduce new errors into your existing codebase or damage it. To mitigate this risk, always make sure you **have a backup of your current codebase** available before you make changes to it using Klyve.
+
+### Step 2: Select Target
 * **Navigate:** *File > New Project* and select **"Work with an Existing Codebase"**.
 * **Input:** Browse to the root folder of the application in which the user has made the code base files available.
 
-### Step 2: Pre-Flight Scan
+### Step 3: Pre-Flight Scan
 Klyve performs a non-destructive read-only scan.
 * **Safety:** Verifies valid source code and checks for Git repositories.
 * **Indexing:** Builds a "Project Memory," allowing the AI to understand the architecture without re-reading every file for every task.
 
-### Step 3: Reverse-Engineering
+### Step 4: Reverse-Engineering
 Klyve establishes a baseline by generating "Reverse-Engineered" specifications:
 * **Baseline Docs:** Creates Application and Technical Specifications that reflect the *current* state of the system.
 * **Outcome:** These documents become the source of truth for future changes.
 
-### Step 4: Maintenance Dashboard
+### Step 5: Maintenance Dashboard
 Once indexed, you are taken to the Dashboard.
 * **Status:** Displays detected languages and codebase health.
 * **Next Step:** Define your coding standards, then navigate to the **Project Backlog** to begin adding bug reports or features.
