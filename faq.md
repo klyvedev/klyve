@@ -70,7 +70,7 @@ Strategic answers regarding Security, IP, and Factory Logic.
 ## 4. Regulatory Alignment & Compliance
 
 ### Is Klyve compliant with the EU AI Act?
-**Klyve is designed for Compliance.** While it is a low-risk development tool, it voluntarily adopts **Article 14 (Human Oversight)** standards to ensure you remain the Data Controller.
+**Klyve is designed for Compliance.** Architected under the guidance of an IAPP Certified AI Governance Professional (AIGP), Klyve voluntarily adopts **Article 14 (Human Oversight)** standards to ensure you remain the Data Controller.
 
 * **Human-in-the-Loop:** The orchestrator halts for approval before every key action (Finalisation of Specifications and Standards, Planning, Coding, Testing).
 * **Data Sovereignty:** Your data resides on your local machine, and only limited project data is transmitted to your selected LLM provider. There are no Klyve servers.
