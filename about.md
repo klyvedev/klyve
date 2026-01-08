@@ -57,7 +57,7 @@ Klyve is a powerful engine, but it requires a skilled leader.
 >
 >I am a retired technologist with a 35-year career spanning from self-taught coding to executive management. While my architectural fundamentals remained sharp, my hands-on coding skills had long since faded.   
 >
->When I set out to build software again (for fun) after retirement, I didn't want to spend time learning syntax. I wanted to architect working systems. Klyve was born from this need.
+>When I set out to build software again after retirement (initially to experiment with vibe coding), I didn't want to spend time learning syntax. I wanted to architect working systems. Klyve was born from this need.
 >
 >**Klyve was built by Klyve**.
 >
