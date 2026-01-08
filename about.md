@@ -65,9 +65,9 @@ Klyve is a powerful engine, but it requires a skilled leader.
 >
 >This product is the result of that partnership. It is proof that a single architect, armed with the right process and AI, can build enterprise-grade software without writing every line of code themselves.
 >
->**Mario J. Lewis**, *IAPP AIGP*
->*Certified AI Governance Professional*
->*(Retired) veteran of the software industry*
+> **Mario J. Lewis**, *IAPP AIGP*<br />
+> *Certified AI Governance Professional*<br />
+> *(Retired) veteran of the software industry*
 
 ---
 
