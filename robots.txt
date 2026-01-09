@@ -1,0 +1,4 @@
+Sitemap: https://klyve.online/sitemap.xml
+
+User-agent: *
+Allow: /
