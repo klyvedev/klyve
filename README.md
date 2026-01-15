@@ -1,12 +1,34 @@
 # Klyve
 **The Automated Software Factory**
 
-> Execute the entire software lifecycle—from requirements to deployment—on your local machine. No cloud dependencies. No lost IP.
+> Execute the entire software lifecycle—from requirements to deployment—on your local machine.
+> No cloud dependencies. No lost IP.
 
 ---
 
 ### 📥 Download
-Klyve is a compiled desktop application. You can download the latest installer for Windows and AppImage for Linux from the **[Releases Page](https://github.com/klyvedev/klyve/releases)**.
+Klyve is a compiled desktop application.
+You can download the latest installer for Windows and AppImage for Linux from the **[Releases Page](https://github.com/klyvedev/klyve/releases)**.
+
+---
+
+### 📸 The Visual Tour
+
+**1. From Idea to Spec**
+Don't start from scratch. Upload raw requirements, and Klyve generates your UX/UI (if needed), Application, and Technical specifications.
+![Analysis Phase](assets/screenshots/01_input.png)
+
+**2. Automated Architecture**
+Klyve generates the architecture, build scripts, and Docker containers before writing the code.
+![Spec Generation](assets/screenshots/02_specs.png)
+
+**3. Self-Healing Execution**
+The engine detects build failures and attempts automatic bug fixes in real-time.
+![Auto Bug Fix](assets/screenshots/04_auto_fix.png)
+
+**4. Professional Deliverables**
+Keep stakeholders happy with auto-prepared traceability matrices and sprint reports.
+![Reporting](assets/screenshots/06_report.png)
 
 ---
 
