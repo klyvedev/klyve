@@ -20,6 +20,15 @@ Scale yourself. Build, test, and maintain entire applications as a<br />**Solo S
   <a href="/capabilities/" class="btn fs-5 mb-4 mb-md-0">View Capabilities</a>
 </div>
 
+<div style="max-width: 800px; margin: 40px auto; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
+  <iframe 
+    src="https://www.youtube.com/embed/Pc7RQGKFCoU?rel=0" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ---
 
 ## Beyond Code Generation: Full-Lifecycle Engineering

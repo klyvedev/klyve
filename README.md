@@ -4,6 +4,9 @@
 > Execute the entire software lifecycle, from requirements to deployment, on your local machine.
 > No cloud dependencies. No lost IP.
 
+[![Watch the Klyve Demo](https://img.youtube.com/vi/Pc7RQGKFCoU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Pc7RQGKFCoU "Watch Klyve in Action")
+*Click to watch the 40-second tour*
+
 ---
 
 ### 📥 Download
