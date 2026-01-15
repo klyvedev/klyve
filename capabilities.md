@@ -18,6 +18,9 @@ Most coding assistants require you to think in code snippets. Klyve thinks in pr
 * **Spec Generation:** Describe your feature either in plain English or upload a fuller set of requirements, and Klyve converts it into detailed UX/UI, application and technical specifications.
 * **Architecture Management:** Klyve maintains the "big picture" of your project structure, ensuring new features fit into your existing design.
 
+![Technical Specification](screenshots/10_tech_spec.png)
+*Above: Detailed Technical Specifications generated automatically from your requirements.*
+
 ## 2. Automated Development
 Once a specification is approved, Klyve acts as your implementation team.
 * **Code Generation:** Klyve writes functional, standard code to match the requirements.
@@ -35,6 +38,9 @@ Documentation is treated as a first-class citizen, not an afterthought.
 * **Live Docs:** As code changes, Klyve updates and versions the corresponding documentation. You can access all project documentation in the Document Hub, **add review comments and record approvals** for each document.
 * **Traceability:** You can trace every requirement forward to implemented functions in a **Requirements Traceability Report**.
 * **Reporting:** A Reports Hub provides you with information about project completion, sprint performance and sprint deliverables. Access your sprint histories through the Projects menu.
+
+![Project Backlog](screenshots/09_backlog.png)
+*Above: The Project Backlog keeps track of features, user stories, and bug reports.*
 
 ## 5. Security, Data Sovereignty & Governance
 Klyve is architected for professionals who require strict control over their intellectual property.

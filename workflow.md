@@ -31,6 +31,9 @@ Once specs are approved, Klyve generates a hierarchical **Project Backlog**. For
 
 **The Checkpoint:** You read the plan. If the technicals look wrong, you reject it. **Code is never written without a plan you have authorized.**
 
+![Planning Logic](screenshots/07_plan_logic.png)
+*Above: Klyve generates a detailed implementation plan for your approval before writing code.*
+
 ---
 
 ## Step 3: The Execution (Implementation Pipeline)
@@ -51,7 +54,12 @@ You click **"Start Sprint."** The interface shifts to the **Live Log View**. Kly
 ## Step 4: The Delivery (Review & Release)
 **The Goal:** A clean handoff of working software.
 
-When sprint development tasks are complete, Klyve runs the **Full Regression Test Suite** followed by a **Sprint Integration Test Suite**. Upon success, you receive:
+When sprint development tasks are complete, Klyve runs the **Full Regression Test Suite** followed by a **Sprint Integration Test Suite**. 
+
+![Regression Testing](screenshots/08_testing.png)
+*Above: Automated regression testing ensures new features don't break existing logic.*
+
+Upon success, you receive:
 
 1.  **The Code:** Committed, merged, and ready for deployment.
 2.  **The Reports:** Full Backlog Traceability and detailed Test Execution reports.
