@@ -51,30 +51,49 @@ Klyve is different. It is an **Autonomous Software Engineering System**. You pro
 {: .text-center }
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; margin-bottom: 40px;">
+  
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/01_input.png" alt="Input Analysis" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
-    <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">1. AI Analysis of your Inputs</p>
+    <a href="screenshots/01_input.png" class="glightbox" data-gallery="klyve" data-description="Project Brief Analysis: Klyve analyzes your raw input to understand the project scope before writing any code.">
+      <img src="screenshots/01_input.png" alt="Input Analysis" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
+    <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">1. AI Analysis of your Inputs (Click to Enlarge)</p>
   </div>
+
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/02_specs.png" alt="Spec Generation" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    <a href="screenshots/02_specs.png" class="glightbox" data-gallery="klyve" data-description="The UX/UI Assessment Phase: Klyve suggests whether a UX/UI specification phase is needed or not.">
+      <img src="screenshots/02_specs.png" alt="Spec Generation" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
     <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">2. Architectural Spec Generation</p>
   </div>
+
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/03_setup.png" alt="Environment Setup" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    <a href="screenshots/03_setup.png" class="glightbox" data-gallery="klyve" data-description="Build Script generation: Klyve creates the build scripts after guiding you to set up the dev and test environments.">
+      <img src="screenshots/03_setup.png" alt="Environment Setup" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
     <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">3. Auto-generated Environments</p>
   </div>
+
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/04_auto_fix.png" alt="Self-Healing Log" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    <a href="screenshots/04_auto_fix.png" class="glightbox" data-gallery="klyve" data-description="Self Correction: If unit testing fails, Klyve analyzes the error log and attempts to auto-debug the code.">
+      <img src="screenshots/04_auto_fix.png" alt="Self-Healing Log" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
     <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">4. Self-Healing Execution Logs</p>
   </div>
+
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/05_sprint_ui.png" alt="Sprint Deliverables" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    <a href="screenshots/05_sprint_ui.png" class="glightbox" data-gallery="klyve" data-description="Sprint Deliverables Report: Track deliverables against the approved plan.">
+      <img src="screenshots/05_sprint_ui.png" alt="Sprint Deliverables" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
     <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">5. Sprint Dashboard</p>
   </div>
+
   <div style="text-align: center; display: flex; flex-direction: column; height: 100%;">
-    <img src="screenshots/06_report.png" alt="Excel Reports" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    <a href="screenshots/06_report.png" class="glightbox" data-gallery="klyve" data-description="Requirement Traceability Report: One-click report to trace artifacts to sprint backlog items.">
+      <img src="screenshots/06_report.png" alt="Excel Reports" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); width: 100%;">
+    </a>
     <p style="font-size: 0.9em; margin-top: auto; padding-top: 10px; color: #888;">6. Exportable Stakeholder Reports</p>
   </div>
+
 </div>
 
 ---
