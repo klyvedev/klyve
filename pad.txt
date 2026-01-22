@@ -42,7 +42,7 @@
         <Expire_Info>
             <Has_Expire_Info>N</Has_Expire_Info>
         </Expire_Info>
-        <Program_Change_Info>Initial Release of the Automated Software Factory.</Program_Change_Info>
+        <Program_Change_Info>Beta Release of the Automated Software Factory.</Program_Change_Info>
         <Program_Specific_Category>Development Tools</Program_Specific_Category>
         <Program_Categories>Development :: Coding Utilities</Program_Categories>
         <Program_System_Requirements>Windows 10/11 64-bit, Internet Connection for LLM API</Program_System_Requirements>
