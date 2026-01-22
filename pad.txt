@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+    <MASTER_PAD_VERSION_INFO>
+        <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+        <MASTER_PAD_INFO>Hand-coded for Klyve</MASTER_PAD_INFO>
+    </MASTER_PAD_VERSION_INFO>
+    <Company_Info>
+        <Company_Name>Klyve Project</Company_Name>
+        <Address_1>Online Distribution</Address_1>
+        <City_Town>Global</City_Town>
+        <State_Province>None</State_Province>
+        <Zip_Postal_Code>99999</Zip_Postal_Code>
+        <Country>International</Country>
+        <Company_WebSite_URL>https://klyve.online</Company_WebSite_URL>
+        <Contact_Info>
+            <Contact_First_Name>Mario</Contact_First_Name>
+            <Contact_Last_Name>Lewis</Contact_Last_Name>
+            <Contact_Email>developer@klyve.online</Contact_Email>
+        </Contact_Info>
+        <Support_Info>
+            <Sales_Email>developer@klyve.online</Sales_Email>
+            <Support_Email>developer@klyve.online</Support_Email>
+            <General_Email>developer@klyve.online</General_Email>
+        </Support_Info>
+    </Company_Info>
+    <Program_Info>
+        <Program_Name>Klyve</Program_Name>
+        <Program_Version>1.0</Program_Version>
+        <Program_Release_Month>01</Program_Release_Month>
+        <Program_Release_Day>20</Program_Release_Day>
+        <Program_Release_Year>2026</Program_Release_Year>
+        <Program_Cost_Dollars>0</Program_Cost_Dollars>
+        <Program_Cost_Other_Code>FREE</Program_Cost_Other_Code>
+        <Program_Type>Freeware</Program_Type>
+        <Program_OS_Support>Win10, Win11, Win7 x64</Program_OS_Support>
+        <Program_Language>English</Program_Language>
+        <File_Info>
+            <File_Size_Bytes>245000000</File_Size_Bytes>
+            <File_Size_K>245000</File_Size_K>
+            <File_Size_MB>245</File_Size_MB>
+        </File_Info>
+        <Expire_Info>
+            <Has_Expire_Info>N</Has_Expire_Info>
+        </Expire_Info>
+        <Program_Change_Info>Initial Release of the Automated Software Factory.</Program_Change_Info>
+        <Program_Specific_Category>Development Tools</Program_Specific_Category>
+        <Program_Categories>Development :: Coding Utilities</Program_Categories>
+        <Program_System_Requirements>Windows 10/11 64-bit, Internet Connection for LLM API</Program_System_Requirements>
+        <Includes_JAVA_VM>N</Includes_JAVA_VM>
+        <Includes_VB_Runtime>N</Includes_VB_Runtime>
+        <Includes_DirectX>N</Includes_DirectX>
+    </Program_Info>
+    <Web_Info>
+        <Application_URLs>
+            <Application_Info_URL>https://klyve.online</Application_Info_URL>
+            <Application_Order_URL>https://klyve.online</Application_Order_URL>
+<Application_Screenshot_URL>https://klyve.online/assets/images/screenshot.png</Application_Screenshot_URL>
+            <Application_Icon_URL>https://klyve.online/assets/images/screenshots/icon.png</Application_Icon_URL>
+            <Application_XML_File_URL>https://klyve.online/pad.xml</Application_XML_File_URL>
+        </Application_URLs>
+        <Download_URLs>
+            <Primary_Download_URL>https://github.com/klyvedev/klyve/releases/download/v1.0.0-beta-W/Klyve_Setup_v1.0_Beta.exe</Primary_Download_URL>
+        </Download_URLs>
+    </Web_Info>
+    <Program_Descriptions>
+        <English>
+            <Keywords>AI coding assistant, automated software factory, SDLC orchestrator, local-first development, privacy-focused AI, offline coding tool, LLM context manager, OpenAI desktop client, Anthropic desktop client, Gemini desktop client, DeepSeek desktop client, brownfield development, legacy code refactoring, automated testing generator, python development tool</Keywords>
+            <Char_Desc_45>Local-first Automated Software Factory.</Char_Desc_45>
+            <Char_Desc_80>A privacy-focused desktop orchestrator that manages AI agents to build software.</Char_Desc_80>
+            <Char_Desc_250>Klyve is a local-first Automated Software Factory. It acts as a "Senior Partner" to your LLM, managing the entire SDLC from spec elaboration to testing. Features local encryption, BYOK (Bring Your Own Key), and no cloud data storage.</Char_Desc_250>
+            <Char_Desc_450>Klyve is a desktop application that turns your LLM (OpenAI, Anthropic, Gemini, etc.) into a disciplined software team. Unlike simple autocomplete tools, Klyve manages the full lifecycle: it refines your high-level specs, generates a backlog, plans sprints, writes code, and runs tests. It solves the "context loss" problem by maintaining a strict architectural map of your project. All data is stored locally and encrypted; your IP never touches a SaaS cloud.</Char_Desc_450>
+        </English>
+    </Program_Descriptions>
+</XML_DIZ_INFO>
