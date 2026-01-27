@@ -1,8 +1,8 @@
 # Klyve
-**The Automated Software Factory**
+**The "Senior Partner" for AI Development.**
+_Don't just chat with your AI. Manage it._
 
-> Execute the entire software lifecycle, from requirements to deployment, on your local machine.
-> No cloud dependencies. No lost IP.
+Klyve is a local-first SDLC orchestrator that puts you in charge of the Architecture, Backlog, and Sprints, while the AI handles the execution.
 
 ---
 
