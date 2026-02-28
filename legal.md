@@ -20,60 +20,33 @@ nav_order: 7
   <br>
 This agreement governs the use of the Klyve Desktop Software Factory. It defines the terms under which the software is licensed (not sold) to you, including the restrictions on reverse engineering and the limitations of liability regarding AI-generated code.
 
-END USER LICENSE AGREEMENT (EULA) FOR KLYVE Version 1.0 (Beta) Last Updated: 08-Dec-2025
+KLYVE Open Source License
+Version 1.1 (Open Source) | Last Updated: 28 February 2026
 
-IMPORTANT. READ CAREFULLY: This End User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User") and Mario Joseph Lewis ("Developer") for the Klyve software application, including its source code, user interface, structure, and associated documentation (collectively, the "Software").
+Copyright (c) 2026 Mario Joseph Lewis
 
-BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT USE THE SOFTWARE AND UNINSTALL IT IMMEDIATELY.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. ACKNOWLEDGMENT OF BETA STATUS AND DISCLAIMERS
-1.1 Beta Software: You acknowledge that the Software is a "Beta" version. It may contain bugs, errors, omissions, and other problems that could cause system failures, data loss, or corruption of existing files.
-1.2 "As-Is" and No Support: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. The Developer specifically disclaims all implied warranties. Furthermore, the Developer has no obligation to provide technical support, maintenance, updates, or bug fixes.
-1.3 Unsigned Software Warning: You acknowledge that this Software may not be digitally signed by a trusted certificate authority. You assume all risks associated with bypassing operating system security warnings (such as Windows SmartScreen or Linux security prompts) to install and run the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-2. GRANT OF LICENSE AND RESTRICTIONS
-2.1 Except for the third party dependencies used by the Software, all of the Software is copyrighted and rights to it reserved by the Developer.
-2.2 Grant of License: Subject to the terms of this Agreement, the Developer grants you a revocable, non-exclusive, non-transferable, limited license to install and use the Software on devices owned or controlled by you.
-2.3 Permitted Use: You may use the Software to create, modify, and maintain software applications ("Projects") for your own personal use or for commercial gain (e.g., developing software for your clients).
-2.4 Restrictions on Redistribution: You may not rent, lease, lend, sell, redistribute, or sublicense the Software itself (the tool) to any third party. While you may sell the products you create using the Software, you may not sell, bundle, or repackage the Software itself for financial gain or otherwise make the Software available to third parties as a standalone product.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-3. INTELLECTUAL PROPERTY RIGHTS
-3.1 Ownership of Software: The License granted herein is not a transfer of ownership of the Software. The Developer retains all right, title, and interest in and to the Software, including all intellectual property rights therein except for those of the third party software declared in the Third Party Notices. The Software is protected by copyright laws and international treaty provisions.
-3.2 Ownership of User Projects: You (the User) retain full ownership of all software, source code, specifications, plans, and documentation that are created, generated, or modified by the Software ("Project Artifacts"). The Developer claims no intellectual property rights over your inputs or the resulting output.
+SUPPLEMENTAL TERMS & DISCLOSURES
+1. Brand and Trademark Ownership
+The name "Klyve," the Klyve logo, and all associated branding elements are the exclusive intellectual property of Mario Joseph Lewis. While this license grants you the right to use and modify the source code, it does not grant permission to use the "Klyve" brand name, trademarks, or logos for any derivative works, redistributed versions, or commercial offerings without express written consent. Any modified version of this software must be rebranded under a different name.
 
-4. TECHNICAL RESTRICTIONS
-4.1 No Reverse Engineering: You may not reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
-4.1.1 LGPL v3 Exception: Notwithstanding the foregoing, you may reverse engineer, debug, and modify portions of the Software solely for the purpose of making modifications to, or upgrading the third-party libraries licensed under the GNU Lesser General Public License (LGPL) v3, specifically Qt for Python (PySide6) and Shiboken6. This exception is granted solely to the extent required to comply with the LGPL terms governing those libraries. You are not permitted to reverse engineer the Software for the purpose of extracting the Developerâ€™s proprietary source code or algorithms for any other use.
-4.2 No Derivative Works of the Tool: You may not modify, adapt, translate, or create derivative works based upon the Software itself. For the avoidance of doubt, software code or documentation generated by you using the Software ("Project Artifacts") are NOT considered derivative works of the Software and are owned by you as per Section 3.2.
-4.3 Compliance with Laws: You may not use the Software for any unlawful purpose or to create malicious software.
-4.4 Feedback: If you provide the Developer with any suggestions, bug reports, or other feedback regarding the Software ("Feedback"), you hereby grant the Developer a perpetual, irrevocable, royalty-free, worldwide license to use, reproduce, modify, and incorporate such Feedback into the Software without any obligation or compensation to you.
+2. Third-Party Dependencies & Credits
+Klyve includes various third-party open-source components (e.g., PySide6/Qt, Shiboken6). These components are governed by their own respective licenses (such as LGPLv3). Full license texts and obligatory credits for these dependencies are available in the "About Klyve" menu and the root installation directory. Your use of this Software constitutes acceptance of these third-party terms.
 
-5. AI FEATURES AND DATA TRANSMISSION
-5.1 AI Generation Disclaimer: The Software utilizes Artificial Intelligence ("AI") to assist in various stages of the software development lifecycle, including but not limited to specification, planning, code generation, reporting and testing. You acknowledge that AI systems are probabilistic and may produce results containing errors, omissions, security vulnerabilities, non-factual information or non-functional code.
-5.2 User Responsibility & Brownfield Risk: You agree that you are solely responsible for reviewing, testing, and validating all artifacts generated or modified by the Software. When using the Software to modify existing applications ("Brownfield Projects"), you acknowledge the risk that the Software may corrupt, delete, or introduce errors into your existing codebase. You assume full responsibility for the integrity of your files and data before, during, and after the use of the Software. The Developer assumes no liability for any damage to new or existing code resulting from the use of the Software.
-5.3 Data Transmission Consent: You acknowledge and agree that the Software operates by transmitting portions of your project data to third-party Large Language Model ("LLM") providers via their APIs.
-5.4 Third-Party Providers: By providing your own API key, you agree that the processing of your data is subject to the terms of service of that specific LLM provider.
+3. AI Transparency (EU AI Act Article 50)
+Klyve functions as an autonomous software development factory using generative AI.
 
-6. THIRD-PARTY COMPONENTS
-6.1 Open Source Libraries: The Software includes or bundles various third-party free or open-source software components. These components are subject to their own respective license agreements, which may grant you specific rights regarding those components.
-6.2 License Access: A list of these components, how to modify them in cases where you have a right to do so, and their full license texts is available within the Software via the "Help - About Klyve" menu and also in text files available in the application's root installation directory. An SBOM has also been made available in .json format in the same directory. Your use of the Software constitutes acceptance of these third-party terms. 
+Synthetic Generation: Code and architectural specifications produced are synthetically generated and not by a human.
 
-7. LIMITATION OF LIABILITY
-7.1 No Consequential Damages: To the maximum extent permitted by applicable law, in no event shall the Developer be liable for any direct, indirect, special, incidental, or consequential damages whatsoever (including, but not limited to, damages to User's software, computer failure or malfunction, business revenue, business profits, business interruption, loss of business data, loss of goodwill, or any other pecuniary loss) arising out of the use of or inability to use the Software or the failure to provide support services, even if the Developer has been advised of the possibility of such damages.
+Marking: The Developer reserves the right to embed machine-readable metadata within generated files to identify them as AI-synthesized for regulatory compliance.
 
-8. TERMINATION
-8.1 Termination by User: You may terminate this Agreement at any time by destroying all copies of the Software and all of its component parts.
-8.2 Termination by Developer: This Agreement will terminate immediately without notice from the Developer if you fail to comply with any provision of this Agreement. Upon termination, you must destroy all copies of the Software and all of its component parts.
-
-9. INDEMNIFICATION AND DISPUTE RESOLUTION
-9.1 Indemnification: You agree to indemnify, defend, and hold harmless the Developer from and against any and all claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with: (a) your access to or use of the Software; (b) your violation of this Agreement; or (c) the Project Artifacts you generate using the Software.
-9.2 Disputes: This Agreement shall be governed by and construed in accordance with the laws of India. The courts in Bangalore, Karnataka shall have exclusive jurisdiction over any disputes arising out of or in connection with this Agreement.
-9.3 Class Action Waiver: To the fullest extent permitted by applicable law, you agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated, or representative action. You expressly waive any right to participate in a class action lawsuit or class-wide arbitration against the Developer.
-
-10. GENERAL PROVISIONS
-10.1 Governing Law: This Agreement shall be governed by and construed in accordance with the laws of India, without giving effect to any principles of conflicts of law.
-10.2 Severability: If any provision of this Agreement is held to be void, invalid, unenforceable, or illegal, the other provisions shall continue in full force and effect.
-10.3 Entire Agreement: This Agreement constitutes the entire agreement between you and the Developer with respect to the Software and supersedes all prior or contemporaneous understandings regarding such subject matter. Â 
+4. User Responsibility
+As an open-source tool for developers, you act as the "Human-in-the-Loop." You bear sole responsibility for reviewing, auditing, and testing all generated code before deployment.
 
 (End of Agreement)
 </details>
@@ -83,49 +56,49 @@ BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF 
 ## 2. Privacy Policy
 **Core Promise:** Klyve is Local-First. We do not operate a cloud server to store your project data 
 
-PRIVACY POLICY FOR KLYVE Version 1.0 (Beta) 
-.**Effective Date: 08-Dec-2025**
-<details>
-  <summary style="cursor: pointer; font-weight: 500; color: #2ea44f;">Click to read the Privacy Policy</summary>
-  <br>
-1. MY "LOCAL-FIRST" PROMISE: 
-I, Mario J. Lewis ("Developer"), believe your code and project data belong to you. Klyve ("the Software") is designed as a Local-First application. This means:
+PRIVACY POLICY FOR KLYVE
+Version 1.1 (Open Source) | Last Updated: 28 February 2026
 
-No Cloud Storage: I do not operate any cloud server to upload and store your project source code, specifications, or planning documents from your local environment.
+1. THE "LOCAL-FIRST" PROMISE
+I, Mario J. Lewis ("Developer"), believe your code and project data belong entirely to you. Klyve is designed as a Local-First application, ensuring that:
+
+No Cloud Storage: The Developer does not operate any cloud servers to upload, store, or monitor your project source code, specifications, or planning documents.
 
 Local Processing: All file generation, database management, and logic processing occur locally on your machine.
 
-Direct Connection: When AI features are used, the Software connects directly from your machine to the AI provider (e.g., OpenAI, Google) using the API key you provide. Your data does not pass through any server owned or operated by the Developer.
+Direct Connection: When AI features are used, the Software connects directly from your machine to the AI provider (e.g., OpenAI, Google, Anthropic) using the API key you provide. Your data does not pass through any server owned or operated by the Developer.
 
-2. DATA COLLECTED:
-Since the Software runs locally, data collection is minimal:
+2. DATA MINIMALISM
+Since the Software runs locally, data collection is non-existent to minimal:
 
-Usage Data: I do not collect telemetry or usage data in this version of the Software.
+No Telemetry: This version of the Software does not collect usage data, tracking metrics, or background telemetry.
 
-Crash Reports: If you voluntarily submit a bug report via email or the website, I receive only the data you choose to include (e.g., logs, screenshots).
+Crash Reports: If you voluntarily submit a bug report via email or the repository, the Developer receives only the data you choose to include (e.g., logs, screenshots).
 
-Website Data: If you download the Software from my website, standard web server logs (IP address, browser type) may be collected for security and download tracking purposes.
+Website Data: Accessing the Klyve website or GitHub repository results in standard web server logs (IP address, browser type) collected by the hosting provider for security and download tracking.
 
-3. DATA YOU TRANSMIT TO THIRD PARTIES (AI PROVIDERS):
-To function as an AI-powered developer, the Software transmits data to third-party Large Language Model (LLM) providers.
+Transparency Metadata: To comply with regulatory requirements (e.g., EU AI Act), machine-readable metadata indicating that files are AI-generated may be embedded within created files. This metadata does not contain personally identifiable information (PII).
 
-What is sent: Code snippets, file structures, documentation text, and error logs from your active project.
+3. THIRD-PARTY AI PROVIDERS
+The Software functions by transmitting data to third-party Large Language Model (LLM) providers based on your configuration.
 
-Who receives it: The specific LLM provider you configured in the "Settings" menu. Depending on your configuration, this may include OpenAI, Google Gemini, Anthropic, Replicate, or DeepSeek. Please note that selecting certain providers (e.g., DeepSeek) may involve data transmission to servers located outside your primary jurisdiction.
+Data Transmitted: Code snippets, file structures, and documentation from your active project are sent to the provider you select.
 
-Your Control: You control this transmission by providing (or revoking) your API key.
+Model Training: The Developer does not access or store this data and cannot use it to train or fine-tune proprietary models.
 
-Governance: Data sent to these providers is governed by your separate agreement and privacy policy with them. The Developer is not a party to that transmission.
+Provider Policies: Whether a third-party provider uses your data for training depends on your specific agreement and API tier with them. You are responsible for reviewing the data usage policies of providers like OpenAI, Google, or Anthropic.
 
-4. YOUR DATA RIGHTS: 
-Because I do not store your personal project data, I generally do not hold data to which "Right to Access" or "Right to Delete" requests would apply.
+API Keys: Your API keys are stored locally in an encrypted database on your machine. The Developer cannot access or revoke them.
 
-Project Data: You already possess all your project data on your local machine. You can delete it at any time by deleting it within the application and from your project folders.
+4. YOUR DATA RIGHTS
+Because the Developer does not store your personal project data, "Right to Access" or "Right to Delete" requests do not apply to the Developer's infrastructure.
 
-API Keys: Your API keys are stored locally in an encrypted database on your machine. I cannot see them or access them.
+Project Control: You possess all project data on your local machine and can delete it at any time.
 
-5. CHANGES TO THIS POLICY: 
-I may update this Privacy Policy from time to time. If I make material changes (e.g., if a future version introduces telemetry), I will issue a notification on the Software's website.
+Key Management: You maintain full control over your API keys within the Software's settings.
+
+5. GOVERNING LAW
+This Privacy Policy and your use of the Software are governed by the laws of India. Any disputes arising from this policy shall be subject to the exclusive jurisdiction of the courts in Bangalore, Karnataka, India.
 
 (End of Privacy Policy)
 </details>
