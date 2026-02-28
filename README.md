@@ -1,3 +1,5 @@
+**Klyve is now open source! Get the code at: [github.com/mariolewis/asdf_factory](https://github.com/mariolewis/asdf_factory)**
+
 # Klyve
 **The "Senior Partner" for AI Development.**
 _Don't just chat with your AI. Manage it._
@@ -46,4 +48,5 @@ Keep stakeholders happy with auto-generated traceability matrices and sprint rep
 * **Linux Users:** If Klyve fails to start after a re-install, you may need to clear the local database state. Run the following command in your terminal:
     ```bash
     rm -rf ~/.klyve
+
     ```
