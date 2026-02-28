@@ -33,7 +33,7 @@ aux_links:
     - "https://github.com/klyvedev/klyve/releases"
 
 # Footer
-footer_content: "© 2025 Mario J. Lewis. All rights reserved. <a href='mailto:developer@klyve.online' style='text-decoration: underline;'>developer@klyve.online</a>"
+footer_content: "© 2026 Mario J. Lewis. Source code under <a href='https://github.com/mariolewis/asdf_factory/blob/master/EULA.txt' style='text-decoration: underline;'>MIT License</a>. Klyve brand rights reserved. Contact: <a href='mailto:developer@klyve.online' style='text-decoration: underline;'>developer@klyve.online</a>"
 
 # Callouts
 callouts:
