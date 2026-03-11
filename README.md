@@ -1,4 +1,4 @@
-**Klyve is now open source! Get the code at: [github.com/mariolewis/asdf_factory](https://github.com/mariolewis/asdf_factory)**
+**Klyve is now open source! Get the code at: [github.com/mariolewis/klyve_factory](https://github.com/mariolewis/klyve_factory)**
 
 # Klyve
 **The "Senior Partner" for AI Development.**
@@ -50,3 +50,4 @@ Keep stakeholders happy with auto-generated traceability matrices and sprint rep
     rm -rf ~/.klyve
 
     ```
+
