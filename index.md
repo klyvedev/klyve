@@ -5,6 +5,13 @@ nav_order: 1
 description: "Klyve: The Automated Software Factory for the Solo Senior Developer"
 permalink: /
 ---
+<div style="position: relative;">
+  <div style="position: absolute; right: 0; top: 0;">
+    <a href="https://devhunt.org/tool/klyve" target="_blank">
+      <img src="screenshots/tab_grey.png" width="150" alt="DevHunt Winner Badge">
+    </a>
+  </div>
+</div>
 
 # Klyve
 {: .fs-9 .text-center }
@@ -16,7 +23,7 @@ Scale yourself. Build, test, and maintain entire applications as a<br />**Solo S
 {: .fs-6 .fw-300 .text-center }
 
 <div class="text-center mt-4">
-  <a href="https://github.com/mariolewis/klyve_factory" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Get Klyve Source (Free MIT License)</a>
+  <a href="https://github.com/klyvedev/klyve/releases" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Download Klyve (Free Beta)</a>
   <a href="/capabilities/" class="btn fs-5 mb-4 mb-md-0">View Capabilities</a>
 </div>
 
@@ -130,6 +137,5 @@ Klyve is currently in **Public Beta**.
 3.  **Build:** Create a new project or import an existing one.
 
 [Download Klyve](https://github.com/klyvedev/klyve/releases){: .btn .btn-primary .mr-2 }
-
 
 *Available for Windows and Linux.*
