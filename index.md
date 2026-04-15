@@ -8,7 +8,7 @@ permalink: /
 <div style="position: relative;">
   <div style="position: absolute; right: 0; top: 0;">
     <a href="https://devhunt.org/tool/klyve" target="_blank">
-      <img src="screenshots/tab_grey.png" width="150" alt="DevHunt Winner Badge">
+      <img src="screenshots/tab_solid.png" width="150" alt="DevHunt Winner Badge">
     </a>
   </div>
 </div>
